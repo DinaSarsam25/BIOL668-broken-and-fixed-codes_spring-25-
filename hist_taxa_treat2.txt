@@ -1,0 +1,1336 @@
+SampleID	Treatment	Treatment_no	Time	Species	Abundance	Count
+CC01A	Control	1	0	Lactobacillus	0.063575168	1430
+CC01B	Control	1	1	Lactobacillus	0.030629951	379
+CC01C	Control	1	2	Lactobacillus	0.026107956	386
+CC01D	Control	1	3	Lactobacillus	0.058233122	1193
+CC02A	Control	1	0	Lactobacillus	0.092632877	2455
+CC02B	Control	1	1	Lactobacillus	0.01571045	296
+CC02C	Control	1	2	Lactobacillus	0.015759431	337
+CC02D	Control	1	3	Lactobacillus	0.036802271	750
+CC03A	Control	1	0	Lactobacillus	0.025690656	280
+CC03B	Control	1	1	Lactobacillus	0.08576857	906
+CC03C	Control	1	2	Lactobacillus	0.036543909	377
+CC03D	Control	1	3	Lactobacillus	0.080859577	1214
+CC04A	Control	1	0	Lactobacillus	0.100211668	1446
+CC04B	Control	1	1	Lactobacillus	0.03849368	703
+CC04C	Control	1	2	Lactobacillus	0.025406575	357
+CC04D	Control	1	3	Lactobacillus	0.111262048	1656
+CC05A	Control	1	0	Lactobacillus	0.080956243	2282
+CC05B	Control	1	1	Lactobacillus	0.048621864	438
+CC05C	Control	1	2	Lactobacillus	0.03149781	454
+CC05D	Control	1	3	Lactobacillus	0.051181488	1533
+CC06C	Control	1	2	Lactobacillus	0.007202453	166
+CC06D	Control	1	3	Lactobacillus	0.008012296	231
+CC07A	Control	1	0	Lactobacillus	0.065472961	719
+CC07B	Control	1	1	Lactobacillus	0.120444101	2584
+CC07C	Control	1	2	Lactobacillus	0.189637418	3385
+CC07D	Control	1	3	Lactobacillus	0.081890936	836
+CC08A	Control	1	0	Lactobacillus	0.016706444	125
+CC08B	Control	1	1	Lactobacillus	0.060039575	1106
+CC08C	Control	1	2	Lactobacillus	0.010996119	144
+CC08D	Control	1	3	Lactobacillus	0.028552827	299
+CC09A	Control	1	0	Lactobacillus	0.192535236	4317
+CC09B	Control	1	1	Lactobacillus	0.043910677	1116
+CC09C	Control	1	2	Lactobacillus	0.09867444	1750
+CC09D	Control	1	3	Lactobacillus	0.015492958	181
+CC10A	Control	1	0	Lactobacillus	0.083906369	1183
+CC11A	Control	1	0	Lactobacillus	0.081996308	1133
+CC11B	Control	1	1	Lactobacillus	0.019335347	432
+CC11C	Control	1	2	Lactobacillus	0.039429454	402
+CC11D	Control	1	3	Lactobacillus	0.058820949	1290
+CC12A	Control	1	0	Lactobacillus	0.003025015	22
+CC12B	Control	1	1	Lactobacillus	0.04090281	377
+CC12C	Control	1	2	Lactobacillus	0.064392437	467
+CC12D	Control	1	3	Lactobacillus	0.019522435	359
+CC13A	Treatment	2	0	Lactobacillus	0.010425101	96
+CC13B	Treatment	2	1	Lactobacillus	0.004384896	30
+CC13C	Treatment	2	2	Lactobacillus	0.007180787	118
+CC13D	Treatment	2	3	Lactobacillus	0.003884455	49
+CC14A	Treatment	2	0	Lactobacillus	0.022313784	393
+CC14B	Treatment	2	1	Lactobacillus	0.001926782	44
+CC14C	Treatment	2	2	Lactobacillus	0.007161925	104
+CC14D	Treatment	2	3	Lactobacillus	0.003794643	92
+CC15A	Treatment	2	0	Lactobacillus	0.02493471	400
+CC15B	Treatment	2	1	Lactobacillus	0.006447221	142
+CC15C	Treatment	2	2	Lactobacillus	0.01223154	285
+CC15D	Treatment	2	3	Lactobacillus	0.01001292	203
+CC16A	Treatment	2	0	Lactobacillus	0.012618169	287
+CC16B	Treatment	2	1	Lactobacillus	0.034694207	722
+CC16C	Treatment	2	2	Lactobacillus	0.004053805	22
+CC16D	Treatment	2	3	Lactobacillus	0.007576783	152
+CC17A	Treatment	2	0	Lactobacillus	0.008136449	175
+CC17B	Treatment	2	1	Lactobacillus	0.009265827	188
+CC17C	Treatment	2	2	Lactobacillus	0.008957134	166
+CC17D	Treatment	2	3	Lactobacillus	0.006318681	65
+CC18A	Treatment	2	0	Lactobacillus	0.126390707	1531
+CC18C	Treatment	2	2	Lactobacillus	0.012114876	189
+CC18D	Treatment	2	3	Lactobacillus	0.006033616	79
+CC19A	Treatment	2	0	Lactobacillus	0.085239085	1852
+CC19B	Treatment	2	1	Lactobacillus	0.003013129	38
+CC19C	Treatment	2	2	Lactobacillus	0.004185047	33
+CC19D	Treatment	2	3	Lactobacillus	0.00420579	83
+CC20A	Treatment	2	0	Lactobacillus	0.077988973	1062
+CC20B	Treatment	2	1	Lactobacillus	0.020020881	303
+CC20C	Treatment	2	2	Lactobacillus	0.003221188	89
+CC20D	Treatment	2	3	Lactobacillus	0.014735251	262
+CC21A	Treatment	2	0	Lactobacillus	0.003974347	38
+CC21B	Treatment	2	1	Lactobacillus	0.019086892	276
+CC21C	Treatment	2	2	Lactobacillus	0.036512976	507
+CC21D	Treatment	2	3	Lactobacillus	0.015636788	217
+CC22A	Treatment	2	0	Lactobacillus	0.206321962	2612
+CC22B	Treatment	2	1	Lactobacillus	0.007208533	95
+CC22C	Treatment	2	2	Lactobacillus	0.025784106	130
+CC22D	Treatment	2	3	Lactobacillus	0.013083172	171
+CC23A	Treatment	2	0	Lactobacillus	0.027473958	201
+CC23B	Treatment	2	1	Lactobacillus	0.019655399	368
+CC23C	Treatment	2	2	Lactobacillus	0.003580196	31
+CC23D	Treatment	2	3	Lactobacillus	0.016009737	331
+CC24A	Treatment	2	0	Lactobacillus	0.044609288	435
+CC24B	Treatment	2	1	Lactobacillus	0.007296028	108
+CC24D	Treatment	2	3	Lactobacillus	0.0030004	41
+CC01A	Control	1	0	Parabacteroides	0.005895552	128
+CC01B	Control	1	1	Parabacteroides	0.001961524	24
+CC01C	Control	1	2	Parabacteroides	0.002219176	34
+CC01D	Control	1	3	Parabacteroides	0.003266736	66
+CC02A	Control	1	0	Parabacteroides	0.002320354	63
+CC02B	Control	1	1	Parabacteroides	0.001789798	34
+CC02C	Control	1	2	Parabacteroides	0.002068167	44
+CC02D	Control	1	3	Parabacteroides	0.003547777	73
+CC03A	Control	1	0	Parabacteroides	0.00413514	46
+CC03B	Control	1	1	Parabacteroides	0.002985615	32
+CC03C	Control	1	2	Parabacteroides	0.004532578	46
+CC03D	Control	1	3	Parabacteroides	0.00277491	40
+CC04A	Control	1	0	Parabacteroides	0.012237068	163
+CC04B	Control	1	1	Parabacteroides	0.003760577	64
+CC04C	Control	1	2	Parabacteroides	0.0040483	51
+CC04D	Control	1	3	Parabacteroides	0.002134679	33
+CC05A	Control	1	0	Parabacteroides	0.015020627	422
+CC05B	Control	1	1	Parabacteroides	0.002787241	25
+CC05C	Control	1	2	Parabacteroides	0.003937226	55
+CC05D	Control	1	3	Parabacteroides	0.002091708	58
+CC06C	Control	1	2	Parabacteroides	0.002460244	58
+CC06D	Control	1	3	Parabacteroides	0.002583557	75
+CC07A	Control	1	0	Parabacteroides	0.003707723	41
+CC07B	Control	1	1	Parabacteroides	0.006961824	148
+CC07C	Control	1	2	Parabacteroides	0.003577042	66
+CC07D	Control	1	3	Parabacteroides	0.003629257	32
+CC08A	Control	1	0	Parabacteroides	0.001193317	7
+CC08B	Control	1	1	Parabacteroides	0.002291189	40
+CC08C	Control	1	2	Parabacteroides	0.002227972	29
+CC08D	Control	1	3	Parabacteroides	0.002790179	28
+CC09A	Control	1	0	Parabacteroides	0.006177136	136
+CC09B	Control	1	1	Parabacteroides	0.004240946	105
+CC09C	Control	1	2	Parabacteroides	0.002200099	36
+CC09D	Control	1	3	Parabacteroides	0.007511737	90
+CC10A	Control	1	0	Parabacteroides	0.00701535	88
+CC11A	Control	1	0	Parabacteroides	0.006105353	84
+CC11B	Control	1	1	Parabacteroides	0.001570997	35
+CC11C	Control	1	2	Parabacteroides	0.001998728	22
+CC11D	Control	1	3	Parabacteroides	0.002061584	47
+CC12A	Control	1	0	Parabacteroides	0.000232693	2
+CC12B	Control	1	1	Parabacteroides	0.001842469	16
+CC12C	Control	1	2	Parabacteroides	0.00198334	13
+CC12D	Control	1	3	Parabacteroides	0.002676463	51
+CC13A	Treatment	2	0	Parabacteroides	0.00465587	35
+CC13B	Treatment	2	1	Parabacteroides	0.002801462	21
+CC13C	Treatment	2	2	Parabacteroides	0.002956795	49
+CC13D	Treatment	2	3	Parabacteroides	0.00656826	86
+CC14A	Treatment	2	0	Parabacteroides	0.012307363	216
+CC14B	Treatment	2	1	Parabacteroides	0.002722627	60
+CC14C	Treatment	2	2	Parabacteroides	0.005403998	81
+CC14D	Treatment	2	3	Parabacteroides	0.005654762	142
+CC15A	Treatment	2	0	Parabacteroides	0.004974506	78
+CC15B	Treatment	2	1	Parabacteroides	0.002843184	61
+CC15C	Treatment	2	2	Parabacteroides	0.002168133	50
+CC15D	Treatment	2	3	Parabacteroides	0.004291251	90
+CC16A	Treatment	2	0	Parabacteroides	0.004787601	106
+CC16B	Treatment	2	1	Parabacteroides	0.003953526	81
+CC16C	Treatment	2	2	Parabacteroides	0.002579694	13
+CC16D	Treatment	2	3	Parabacteroides	0.00437469	94
+CC17A	Treatment	2	0	Parabacteroides	0.013662272	296
+CC17B	Treatment	2	1	Parabacteroides	0.002527044	43
+CC17C	Treatment	2	2	Parabacteroides	0.003691127	72
+CC17D	Treatment	2	3	Parabacteroides	0.003663004	35
+CC18A	Treatment	2	0	Parabacteroides	0.027159686	331
+CC18C	Treatment	2	2	Parabacteroides	0.006580161	103
+CC18D	Treatment	2	3	Parabacteroides	0.008475794	107
+CC19A	Treatment	2	0	Parabacteroides	0.007321703	150
+CC19B	Treatment	2	1	Parabacteroides	0.006097998	80
+CC19C	Treatment	2	2	Parabacteroides	0.002375297	17
+CC19D	Treatment	2	3	Parabacteroides	0.005477308	104
+CC20A	Treatment	2	0	Parabacteroides	0.007327336	97
+CC20B	Treatment	2	1	Parabacteroides	0.002763618	38
+CC20C	Treatment	2	2	Parabacteroides	0.004724409	125
+CC20D	Treatment	2	3	Parabacteroides	0.006800885	116
+CC21A	Treatment	2	0	Parabacteroides	0.00713576	68
+CC21B	Treatment	2	1	Parabacteroides	0.005655376	73
+CC21C	Treatment	2	2	Parabacteroides	0.004141358	52
+CC21D	Treatment	2	3	Parabacteroides	0.003360538	41
+CC22A	Treatment	2	0	Parabacteroides	0.003933348	47
+CC22B	Treatment	2	1	Parabacteroides	0.006546524	87
+CC22C	Treatment	2	2	Parabacteroides	0.00596498	31
+CC22D	Treatment	2	3	Parabacteroides	0.003594278	46
+CC23A	Treatment	2	0	Parabacteroides	0.004296875	26
+CC23B	Treatment	2	1	Parabacteroides	0.003890657	70
+CC23C	Treatment	2	2	Parabacteroides	0.003375614	28
+CC23D	Treatment	2	3	Parabacteroides	0.002668289	50
+CC24A	Treatment	2	0	Parabacteroides	0.012193883	118
+CC24B	Treatment	2	1	Parabacteroides	0.020809542	313
+CC24D	Treatment	2	3	Parabacteroides	0.006534205	93
+CC01A	Control	1	0	Victivallaceae	0	0
+CC01B	Control	1	1	Victivallaceae	0	0
+CC01C	Control	1	2	Victivallaceae	0	0
+CC01D	Control	1	3	Victivallaceae	0	0
+CC02A	Control	1	0	Victivallaceae	3.63E-05	1
+CC02B	Control	1	1	Victivallaceae	0	0
+CC02C	Control	1	2	Victivallaceae	0	0
+CC02D	Control	1	3	Victivallaceae	4.73E-05	1
+CC03A	Control	1	0	Victivallaceae	0	0
+CC03B	Control	1	1	Victivallaceae	0	0
+CC03C	Control	1	2	Victivallaceae	0	0
+CC03D	Control	1	3	Victivallaceae	0	0
+CC04A	Control	1	0	Victivallaceae	0	0
+CC04B	Control	1	1	Victivallaceae	0	0
+CC04C	Control	1	2	Victivallaceae	0	0
+CC04D	Control	1	3	Victivallaceae	0	0
+CC05A	Control	1	0	Victivallaceae	0	0
+CC05B	Control	1	1	Victivallaceae	0	0
+CC05C	Control	1	2	Victivallaceae	0	0
+CC05D	Control	1	3	Victivallaceae	0	0
+CC06C	Control	1	2	Victivallaceae	7.13E-05	1
+CC06D	Control	1	3	Victivallaceae	0.000130813	4
+CC07A	Control	1	0	Victivallaceae	0	0
+CC07B	Control	1	1	Victivallaceae	0	0
+CC07C	Control	1	2	Victivallaceae	0	0
+CC07D	Control	1	3	Victivallaceae	0	0
+CC08A	Control	1	0	Victivallaceae	0	0
+CC08B	Control	1	1	Victivallaceae	0	0
+CC08C	Control	1	2	Victivallaceae	0	0
+CC08D	Control	1	3	Victivallaceae	0.000279018	3
+CC09A	Control	1	0	Victivallaceae	0	0
+CC09B	Control	1	1	Victivallaceae	3.75E-05	1
+CC09C	Control	1	2	Victivallaceae	0	0
+CC09D	Control	1	3	Victivallaceae	0.000625978	8
+CC10A	Control	1	0	Victivallaceae	0	0
+CC11A	Control	1	0	Victivallaceae	7.10E-05	0
+CC11B	Control	1	1	Victivallaceae	8.06E-05	2
+CC11C	Control	1	2	Victivallaceae	0	0
+CC11D	Control	1	3	Victivallaceae	0	0
+CC12A	Control	1	0	Victivallaceae	0	0
+CC12B	Control	1	1	Victivallaceae	0	0
+CC12C	Control	1	2	Victivallaceae	0	0
+CC12D	Control	1	3	Victivallaceae	0.000157439	3
+CC13A	Treatment	2	0	Victivallaceae	0	0
+CC13B	Treatment	2	1	Victivallaceae	0	0
+CC13C	Treatment	2	2	Victivallaceae	0.000181028	3
+CC13D	Treatment	2	3	Victivallaceae	0.000141253	2
+CC14A	Treatment	2	0	Victivallaceae	0.000214041	4
+CC14B	Treatment	2	1	Victivallaceae	4.19E-05	1
+CC14C	Treatment	2	2	Victivallaceae	0	0
+CC14D	Treatment	2	3	Victivallaceae	7.44E-05	2
+CC15A	Treatment	2	0	Victivallaceae	0	0
+CC15B	Treatment	2	1	Victivallaceae	0.000120135	3
+CC15C	Treatment	2	2	Victivallaceae	0.000204541	5
+CC15D	Treatment	2	3	Victivallaceae	0.00055371	12
+CC16A	Treatment	2	0	Victivallaceae	0	0
+CC16B	Treatment	2	1	Victivallaceae	4.03E-05	1
+CC16C	Treatment	2	2	Victivallaceae	0.000368528	2
+CC16D	Treatment	2	3	Victivallaceae	0.000315699	7
+CC17A	Treatment	2	0	Victivallaceae	0.000217552	4
+CC17B	Treatment	2	1	Victivallaceae	0	0
+CC17C	Treatment	2	2	Victivallaceae	0	0
+CC17D	Treatment	2	3	Victivallaceae	0	0
+CC18A	Treatment	2	0	Victivallaceae	0	0
+CC18C	Treatment	2	2	Victivallaceae	0.000245987	4
+CC18D	Treatment	2	3	Victivallaceae	7.18E-05	1
+CC19A	Treatment	2	0	Victivallaceae	0	0
+CC19B	Treatment	2	1	Victivallaceae	0.000215223	3
+CC19C	Treatment	2	2	Victivallaceae	0.000339328	3
+CC19D	Treatment	2	3	Victivallaceae	0	0
+CC20A	Treatment	2	0	Victivallaceae	0	0
+CC20B	Treatment	2	1	Victivallaceae	0	0
+CC20C	Treatment	2	2	Victivallaceae	7.16E-05	1
+CC20D	Treatment	2	3	Victivallaceae	5.40E-05	1
+CC21A	Treatment	2	0	Victivallaceae	0.000180652	0
+CC21B	Treatment	2	1	Victivallaceae	0.00011782	2
+CC21C	Treatment	2	2	Victivallaceae	0.000414136	6
+CC21D	Treatment	2	3	Victivallaceae	0	0
+CC22A	Treatment	2	0	Victivallaceae	0	0
+CC22B	Treatment	2	1	Victivallaceae	7.36E-05	1
+CC22C	Treatment	2	2	Victivallaceae	0.002309024	12
+CC22D	Treatment	2	3	Victivallaceae	0	0
+CC23A	Treatment	2	0	Victivallaceae	0	0
+CC23B	Treatment	2	1	Victivallaceae	0	0
+CC23C	Treatment	2	2	Victivallaceae	0	0
+CC23D	Treatment	2	3	Victivallaceae	0	0
+CC24A	Treatment	2	0	Victivallaceae	0.000101616	1
+CC24B	Treatment	2	1	Victivallaceae	0.000126887	2
+CC24D	Treatment	2	3	Victivallaceae	0.000400053	6
+CC01A	Control	1	0	Lactobacillales	4.40E-05	5
+CC01B	Control	1	1	Lactobacillales	0.00022633	0
+CC01C	Control	1	2	Lactobacillales	0	0
+CC01D	Control	1	3	Lactobacillales	0	1
+CC02A	Control	1	0	Lactobacillales	0	0
+CC02B	Control	1	1	Lactobacillales	0	0
+CC02C	Control	1	2	Lactobacillales	0	0
+CC02D	Control	1	3	Lactobacillales	0.000189215	0
+CC03A	Control	1	0	Lactobacillales	0	1
+CC03B	Control	1	1	Lactobacillales	9.05E-05	0
+CC03C	Control	1	2	Lactobacillales	0	0
+CC03D	Control	1	3	Lactobacillales	0.000129066	0
+CC04A	Control	1	0	Lactobacillales	0	0
+CC04B	Control	1	1	Lactobacillales	0	0
+CC04C	Control	1	2	Lactobacillales	6.98E-05	0
+CC04D	Control	1	3	Lactobacillales	0.000129374	0
+CC05A	Control	1	0	Lactobacillales	0	32
+CC05B	Control	1	1	Lactobacillales	0	3
+CC05C	Control	1	2	Lactobacillales	0.000554539	0
+CC05D	Control	1	3	Lactobacillales	3.27E-05	0
+CC06C	Control	1	2	Lactobacillales	3.57E-05	0
+CC06D	Control	1	3	Lactobacillales	0	0
+CC07A	Control	1	0	Lactobacillales	0	0
+CC07B	Control	1	1	Lactobacillales	9.10E-05	4
+CC07C	Control	1	2	Lactobacillales	5.42E-05	0
+CC07D	Control	1	3	Lactobacillales	0.000186116	1
+CC08A	Control	1	0	Lactobacillales	0	0
+CC08B	Control	1	1	Lactobacillales	0.00020829	0
+CC08C	Control	1	2	Lactobacillales	0	0
+CC08D	Control	1	3	Lactobacillales	9.30E-05	0
+CC09A	Control	1	0	Lactobacillales	0	6
+CC09B	Control	1	1	Lactobacillales	0.000150122	0
+CC09C	Control	1	2	Lactobacillales	0	0
+CC09D	Control	1	3	Lactobacillales	0	0
+CC10A	Control	1	0	Lactobacillales	0.000138918	10
+CC11A	Control	1	0	Lactobacillales	0	1
+CC11B	Control	1	1	Lactobacillales	0	0
+CC11C	Control	1	2	Lactobacillales	0.000272554	0
+CC11D	Control	1	3	Lactobacillales	0.000175454	0
+CC12A	Control	1	0	Lactobacillales	0	0
+CC12B	Control	1	1	Lactobacillales	9.21E-05	0
+CC12C	Control	1	2	Lactobacillales	0	0
+CC12D	Control	1	3	Lactobacillales	0	0
+CC13A	Treatment	2	0	Lactobacillales	0.000101215	1
+CC13B	Treatment	2	1	Lactobacillales	0	2
+CC13C	Treatment	2	2	Lactobacillales	0	0
+CC13D	Treatment	2	3	Lactobacillales	7.06E-05	0
+CC14A	Treatment	2	0	Lactobacillales	0	9
+CC14B	Treatment	2	1	Lactobacillales	0	2
+CC14C	Treatment	2	2	Lactobacillales	0	12
+CC14D	Treatment	2	3	Lactobacillales	7.44E-05	0
+CC15A	Treatment	2	0	Lactobacillales	0	0
+CC15B	Treatment	2	1	Lactobacillales	0	1
+CC15C	Treatment	2	2	Lactobacillales	0	0
+CC15D	Treatment	2	3	Lactobacillales	0	1
+CC16A	Treatment	2	0	Lactobacillales	0	9
+CC16B	Treatment	2	1	Lactobacillales	4.03E-05	7
+CC16C	Treatment	2	2	Lactobacillales	0	1
+CC16D	Treatment	2	3	Lactobacillales	0	5
+CC17A	Treatment	2	0	Lactobacillales	0	0
+CC17B	Treatment	2	1	Lactobacillales	0	0
+CC17C	Treatment	2	2	Lactobacillales	0	0
+CC17D	Treatment	2	3	Lactobacillales	9.16E-05	0
+CC18A	Treatment	2	0	Lactobacillales	8.18E-05	0
+CC18C	Treatment	2	2	Lactobacillales	6.15E-05	1
+CC18D	Treatment	2	3	Lactobacillales	0	5
+CC19A	Treatment	2	0	Lactobacillales	0	0
+CC19B	Treatment	2	1	Lactobacillales	0	0
+CC19C	Treatment	2	2	Lactobacillales	0	0
+CC19D	Treatment	2	3	Lactobacillales	0	0
+CC20A	Treatment	2	0	Lactobacillales	0	4
+CC20B	Treatment	2	1	Lactobacillales	0	1
+CC20C	Treatment	2	2	Lactobacillales	3.58E-05	1
+CC20D	Treatment	2	3	Lactobacillales	0	0
+CC21A	Treatment	2	0	Lactobacillales	0	0
+CC21B	Treatment	2	1	Lactobacillales	0	0
+CC21C	Treatment	2	2	Lactobacillales	0	1
+CC21D	Treatment	2	3	Lactobacillales	0	0
+CC22A	Treatment	2	0	Lactobacillales	0.001001216	1
+CC22B	Treatment	2	1	Lactobacillales	7.36E-05	0
+CC22C	Treatment	2	2	Lactobacillales	0	0
+CC22D	Treatment	2	3	Lactobacillales	0	0
+CC23A	Treatment	2	0	Lactobacillales	0.000130208	1
+CC23B	Treatment	2	1	Lactobacillales	0.000101056	0
+CC23C	Treatment	2	2	Lactobacillales	0	0
+CC23D	Treatment	2	3	Lactobacillales	0	1
+CC24A	Treatment	2	0	Lactobacillales	0	2
+CC24B	Treatment	2	1	Lactobacillales	0	3
+CC24D	Treatment	2	3	Lactobacillales	0	3
+CC01A	Control	1	0	Bacilli	0	25
+CC01B	Control	1	1	Bacilli	7.54E-05	4
+CC01C	Control	1	2	Bacilli	6.53E-05	6
+CC01D	Control	1	3	Bacilli	0	1
+CC02A	Control	1	0	Bacilli	0	47
+CC02B	Control	1	1	Bacilli	0	5
+CC02C	Control	1	2	Bacilli	0	23
+CC02D	Control	1	3	Bacilli	0	2
+CC03A	Control	1	0	Bacilli	0	14
+CC03B	Control	1	1	Bacilli	0.000180946	5
+CC03C	Control	1	2	Bacilli	0.000188857	3
+CC03D	Control	1	3	Bacilli	6.45E-05	3
+CC04A	Control	1	0	Bacilli	6.61E-05	12
+CC04B	Control	1	1	Bacilli	0	1
+CC04C	Control	1	2	Bacilli	0	3
+CC04D	Control	1	3	Bacilli	0.000129374	0
+CC05A	Control	1	0	Bacilli	3.53E-05	108
+CC05B	Control	1	1	Bacilli	0	6
+CC05C	Control	1	2	Bacilli	0.001441801	18
+CC05D	Control	1	3	Bacilli	3.27E-05	13
+CC06C	Control	1	2	Bacilli	0	13
+CC06D	Control	1	3	Bacilli	0	11
+CC07A	Control	1	0	Bacilli	0	0
+CC07B	Control	1	1	Bacilli	4.55E-05	2
+CC07C	Control	1	2	Bacilli	0	1
+CC07D	Control	1	3	Bacilli	0	1
+CC08A	Control	1	0	Bacilli	0	0
+CC08B	Control	1	1	Bacilli	0.000364507	2
+CC08C	Control	1	2	Bacilli	0	3
+CC08D	Control	1	3	Bacilli	0.000186012	4
+CC09A	Control	1	0	Bacilli	0	13
+CC09B	Control	1	1	Bacilli	7.51E-05	4
+CC09C	Control	1	2	Bacilli	0.000275012	5
+CC09D	Control	1	3	Bacilli	0	69
+CC10A	Control	1	0	Bacilli	0.000138918	6
+CC11A	Control	1	0	Bacilli	0.000354962	12
+CC11B	Control	1	1	Bacilli	0.000362538	8
+CC11C	Control	1	2	Bacilli	9.09E-05	1
+CC11D	Control	1	3	Bacilli	0.00013159	6
+CC12A	Control	1	0	Bacilli	0	288
+CC12B	Control	1	1	Bacilli	0.000184247	2
+CC12C	Control	1	2	Bacilli	0.000132223	1
+CC12D	Control	1	3	Bacilli	0	7
+CC13A	Treatment	2	0	Bacilli	0.000506073	4
+CC13B	Treatment	2	1	Bacilli	0	4
+CC13C	Treatment	2	2	Bacilli	0.000120685	6
+CC13D	Treatment	2	3	Bacilli	0.000141253	12
+CC14A	Treatment	2	0	Bacilli	0	14
+CC14B	Treatment	2	1	Bacilli	0	33
+CC14C	Treatment	2	2	Bacilli	0	5
+CC14D	Treatment	2	3	Bacilli	0	10
+CC15A	Treatment	2	0	Bacilli	0	0
+CC15B	Treatment	2	1	Bacilli	0	6
+CC15C	Treatment	2	2	Bacilli	4.09E-05	3
+CC15D	Treatment	2	3	Bacilli	0	7
+CC16A	Treatment	2	0	Bacilli	0	6
+CC16B	Treatment	2	1	Bacilli	0	26
+CC16C	Treatment	2	2	Bacilli	0	4
+CC16D	Treatment	2	3	Bacilli	0	22
+CC17A	Treatment	2	0	Bacilli	0	39
+CC17B	Treatment	2	1	Bacilli	0	6
+CC17C	Treatment	2	2	Bacilli	0	2
+CC17D	Treatment	2	3	Bacilli	0	4
+CC18A	Treatment	2	0	Bacilli	8.18E-05	95
+CC18C	Treatment	2	2	Bacilli	0	10
+CC18D	Treatment	2	3	Bacilli	0	3
+CC19A	Treatment	2	0	Bacilli	0	1
+CC19B	Treatment	2	1	Bacilli	7.17E-05	25
+CC19C	Treatment	2	2	Bacilli	0	1
+CC19D	Treatment	2	3	Bacilli	0	2
+CC20A	Treatment	2	0	Bacilli	0	42
+CC20B	Treatment	2	1	Bacilli	0	23
+CC20C	Treatment	2	2	Bacilli	0	39
+CC20D	Treatment	2	3	Bacilli	0	24
+CC21A	Treatment	2	0	Bacilli	0	5
+CC21B	Treatment	2	1	Bacilli	0	11
+CC21C	Treatment	2	2	Bacilli	0	6
+CC21D	Treatment	2	3	Bacilli	0	1
+CC22A	Treatment	2	0	Bacilli	0.001573339	24
+CC22B	Treatment	2	1	Bacilli	0	11
+CC22C	Treatment	2	2	Bacilli	0	15
+CC22D	Treatment	2	3	Bacilli	0.000143771	13
+CC23A	Treatment	2	0	Bacilli	0	4
+CC23B	Treatment	2	1	Bacilli	0	12
+CC23C	Treatment	2	2	Bacilli	0.000204583	0
+CC23D	Treatment	2	3	Bacilli	9.36E-05	3
+CC24A	Treatment	2	0	Bacilli	0.000101616	104
+CC24B	Treatment	2	1	Bacilli	0	40
+CC24D	Treatment	2	3	Bacilli	0	26
+CC01A	Control	1	0	Eubacterium	0.000219983	333
+CC01B	Control	1	1	Eubacterium	0	52
+CC01C	Control	1	2	Eubacterium	0	164
+CC01D	Control	1	3	Eubacterium	4.73E-05	53
+CC02A	Control	1	0	Eubacterium	0	447
+CC02B	Control	1	1	Eubacterium	0	96
+CC02C	Control	1	2	Eubacterium	0	76
+CC02D	Control	1	3	Eubacterium	0	52
+CC03A	Control	1	0	Eubacterium	8.80E-05	146
+CC03B	Control	1	1	Eubacterium	0	614
+CC03C	Control	1	2	Eubacterium	0	310
+CC03D	Control	1	3	Eubacterium	0	482
+CC04A	Control	1	0	Eubacterium	0	100
+CC04B	Control	1	1	Eubacterium	0	246
+CC04C	Control	1	2	Eubacterium	0	162
+CC04D	Control	1	3	Eubacterium	0	391
+CC05A	Control	1	0	Eubacterium	0.00112831	45
+CC05B	Control	1	1	Eubacterium	0.000516156	36
+CC05C	Control	1	2	Eubacterium	0	379
+CC05D	Control	1	3	Eubacterium	0	480
+CC06C	Control	1	2	Eubacterium	0	147
+CC06D	Control	1	3	Eubacterium	3.27E-05	27
+CC07A	Control	1	0	Eubacterium	0	262
+CC07B	Control	1	1	Eubacterium	0.000182008	475
+CC07C	Control	1	2	Eubacterium	0.000162593	200
+CC07D	Control	1	3	Eubacterium	9.31E-05	34
+CC08A	Control	1	0	Eubacterium	0	10
+CC08B	Control	1	1	Eubacterium	5.21E-05	1134
+CC08C	Control	1	2	Eubacterium	0	80
+CC08D	Control	1	3	Eubacterium	0	301
+CC09A	Control	1	0	Eubacterium	0.000304507	261
+CC09B	Control	1	1	Eubacterium	0	779
+CC09C	Control	1	2	Eubacterium	0	1090
+CC09D	Control	1	3	Eubacterium	0	64
+CC10A	Control	1	0	Eubacterium	0.000764048	89
+CC11A	Control	1	0	Eubacterium	7.10E-05	336
+CC11B	Control	1	1	Eubacterium	0	516
+CC11C	Control	1	2	Eubacterium	0	430
+CC11D	Control	1	3	Eubacterium	0	539
+CC12A	Control	1	0	Eubacterium	0	175
+CC12B	Control	1	1	Eubacterium	0	167
+CC12C	Control	1	2	Eubacterium	0	322
+CC12D	Control	1	3	Eubacterium	0	241
+CC13A	Treatment	2	0	Eubacterium	0.000101215	138
+CC13B	Treatment	2	1	Eubacterium	0.000243605	143
+CC13C	Treatment	2	2	Eubacterium	0	971
+CC13D	Treatment	2	3	Eubacterium	0	747
+CC14A	Treatment	2	0	Eubacterium	0.000535103	34
+CC14B	Treatment	2	1	Eubacterium	0.00012566	10
+CC14C	Treatment	2	2	Eubacterium	0.000781301	13
+CC14D	Treatment	2	3	Eubacterium	0	537
+CC15A	Treatment	2	0	Eubacterium	0	12
+CC15B	Treatment	2	1	Eubacterium	8.01E-05	18
+CC15C	Treatment	2	2	Eubacterium	0.000327265	273
+CC15D	Treatment	2	3	Eubacterium	4.61E-05	76
+CC16A	Treatment	2	0	Eubacterium	0.000446302	712
+CC16B	Treatment	2	1	Eubacterium	0.000484105	146
+CC16C	Treatment	2	2	Eubacterium	0.000368528	8
+CC16D	Treatment	2	3	Eubacterium	0.000225499	136
+CC17A	Treatment	2	0	Eubacterium	8.70E-05	101
+CC17B	Treatment	2	1	Eubacterium	4.43E-05	59
+CC17C	Treatment	2	2	Eubacterium	0	161
+CC17D	Treatment	2	3	Eubacterium	0	38
+CC18A	Treatment	2	0	Eubacterium	0	568
+CC18C	Treatment	2	2	Eubacterium	0.00018449	11
+CC18D	Treatment	2	3	Eubacterium	0.000359144	71
+CC19A	Treatment	2	0	Eubacterium	0	41
+CC19B	Treatment	2	1	Eubacterium	0	24
+CC19C	Treatment	2	2	Eubacterium	0	8
+CC19D	Treatment	2	3	Eubacterium	0	97
+CC20A	Treatment	2	0	Eubacterium	0.000290192	155
+CC20B	Treatment	2	1	Eubacterium	0.000122827	38
+CC20C	Treatment	2	2	Eubacterium	3.58E-05	207
+CC20D	Treatment	2	3	Eubacterium	0.000107951	23
+CC21A	Treatment	2	0	Eubacterium	9.03E-05	12
+CC21B	Treatment	2	1	Eubacterium	0	13
+CC21C	Treatment	2	2	Eubacterium	6.90E-05	14
+CC21D	Treatment	2	3	Eubacterium	0	12
+CC22A	Treatment	2	0	Eubacterium	7.15E-05	1227
+CC22B	Treatment	2	1	Eubacterium	0	124
+CC22C	Treatment	2	2	Eubacterium	0	205
+CC22D	Treatment	2	3	Eubacterium	0	305
+CC23A	Treatment	2	0	Eubacterium	0.000130208	365
+CC23B	Treatment	2	1	Eubacterium	0	811
+CC23C	Treatment	2	2	Eubacterium	0	569
+CC23D	Treatment	2	3	Eubacterium	4.68E-05	1252
+CC24A	Treatment	2	0	Eubacterium	0.000203231	320
+CC24B	Treatment	2	1	Eubacterium	0.000190331	6
+CC24D	Treatment	2	3	Eubacterium	0.000200027	37
+CC01A	Control	1	0	Barnesiellaceae	0.001143913	7
+CC01B	Control	1	1	Barnesiellaceae	0.000301773	13
+CC01C	Control	1	2	Barnesiellaceae	0.000456889	4
+CC01D	Control	1	3	Barnesiellaceae	4.73E-05	19
+CC02A	Control	1	0	Barnesiellaceae	0.00170401	8
+CC02B	Control	1	1	Barnesiellaceae	0.000248583	65
+CC02C	Control	1	2	Barnesiellaceae	0.00111681	84
+CC02D	Control	1	3	Barnesiellaceae	9.46E-05	4
+CC03A	Control	1	0	Barnesiellaceae	0.001319725	4
+CC03B	Control	1	1	Barnesiellaceae	0.000452366	11
+CC03C	Control	1	2	Barnesiellaceae	0.000377715	9
+CC03D	Control	1	3	Barnesiellaceae	0.000193598	38
+CC04A	Control	1	0	Barnesiellaceae	0.000859902	11
+CC04B	Control	1	1	Barnesiellaceae	5.22E-05	5
+CC04C	Control	1	2	Barnesiellaceae	0.000209395	7
+CC04D	Control	1	3	Barnesiellaceae	6.47E-05	20
+CC05A	Control	1	0	Barnesiellaceae	0.003843306	5
+CC05B	Control	1	1	Barnesiellaceae	0.000722618	5
+CC05C	Control	1	2	Barnesiellaceae	0.001552709	57
+CC05D	Control	1	3	Barnesiellaceae	0.000424878	26
+CC06C	Control	1	2	Barnesiellaceae	0.000534836	106
+CC06D	Control	1	3	Barnesiellaceae	0.000359736	10
+CC07A	Control	1	0	Barnesiellaceae	0	1
+CC07B	Control	1	1	Barnesiellaceae	9.10E-05	7
+CC07C	Control	1	2	Barnesiellaceae	5.42E-05	8
+CC07D	Control	1	3	Barnesiellaceae	9.31E-05	6
+CC08A	Control	1	0	Barnesiellaceae	0	0
+CC08B	Control	1	1	Barnesiellaceae	0.000156217	54
+CC08C	Control	1	2	Barnesiellaceae	0.00021561	106
+CC08D	Control	1	3	Barnesiellaceae	0.00046503	10
+CC09A	Control	1	0	Barnesiellaceae	0.000565512	15
+CC09B	Control	1	1	Barnesiellaceae	0.000150122	153
+CC09C	Control	1	2	Barnesiellaceae	0.000275012	25
+CC09D	Control	1	3	Barnesiellaceae	0.005868545	8
+CC10A	Control	1	0	Barnesiellaceae	0.000486212	5
+CC11A	Control	1	0	Barnesiellaceae	0.00085191	4
+CC11B	Control	1	1	Barnesiellaceae	0.000362538	26
+CC11C	Control	1	2	Barnesiellaceae	0.000272554	8
+CC11D	Control	1	3	Barnesiellaceae	0.000307044	18
+CC12A	Control	1	0	Barnesiellaceae	0.0336242	1
+CC12B	Control	1	1	Barnesiellaceae	0.00027637	17
+CC12C	Control	1	2	Barnesiellaceae	0.000132223	9
+CC12D	Control	1	3	Barnesiellaceae	0.000367358	6
+CC13A	Treatment	2	0	Barnesiellaceae	0.000404858	15
+CC13B	Treatment	2	1	Barnesiellaceae	0.000487211	30
+CC13C	Treatment	2	2	Barnesiellaceae	0.000362056	15
+CC13D	Treatment	2	3	Barnesiellaceae	0.000847517	18
+CC14A	Treatment	2	0	Barnesiellaceae	0.000802654	4
+CC14B	Treatment	2	1	Barnesiellaceae	0.00146603	8
+CC14C	Treatment	2	2	Barnesiellaceae	0.000325542	2
+CC14D	Treatment	2	3	Barnesiellaceae	0.000372024	16
+CC15A	Treatment	2	0	Barnesiellaceae	0	2
+CC15B	Treatment	2	1	Barnesiellaceae	0.000240269	46
+CC15C	Treatment	2	2	Barnesiellaceae	0.000122724	19
+CC15D	Treatment	2	3	Barnesiellaceae	0.000322997	9
+CC16A	Treatment	2	0	Barnesiellaceae	0.000365156	37
+CC16B	Treatment	2	1	Barnesiellaceae	0.001169921	19
+CC16C	Treatment	2	2	Barnesiellaceae	0.000921319	3
+CC16D	Treatment	2	3	Barnesiellaceae	0.000992198	8
+CC17A	Treatment	2	0	Barnesiellaceae	0.001740417	8
+CC17B	Treatment	2	1	Barnesiellaceae	0.000399007	19
+CC17C	Treatment	2	2	Barnesiellaceae	9.84E-05	11
+CC17D	Treatment	2	3	Barnesiellaceae	0.000457875	5
+CC18A	Treatment	2	0	Barnesiellaceae	0.007853403	3
+CC18C	Treatment	2	2	Barnesiellaceae	0.000614968	5
+CC18D	Treatment	2	3	Barnesiellaceae	0.000287315	10
+CC19A	Treatment	2	0	Barnesiellaceae	9.04E-05	4
+CC19B	Treatment	2	1	Barnesiellaceae	0.00186527	4
+CC19C	Treatment	2	2	Barnesiellaceae	0.000113109	21
+CC19D	Treatment	2	3	Barnesiellaceae	9.78E-05	9
+CC20A	Treatment	2	0	Barnesiellaceae	0.003119559	5
+CC20B	Treatment	2	1	Barnesiellaceae	0.001658171	10
+CC20C	Treatment	2	2	Barnesiellaceae	0.001431639	14
+CC20D	Treatment	2	3	Barnesiellaceae	0.001295407	15
+CC21A	Treatment	2	0	Barnesiellaceae	0.00045163	3
+CC21B	Treatment	2	1	Barnesiellaceae	0.000648012	12
+CC21C	Treatment	2	2	Barnesiellaceae	0.000414136	8
+CC21D	Treatment	2	3	Barnesiellaceae	6.86E-05	5
+CC22A	Treatment	2	0	Barnesiellaceae	0.002073947	49
+CC22B	Treatment	2	1	Barnesiellaceae	0.000809121	3
+CC22C	Treatment	2	2	Barnesiellaceae	0.002886281	1
+CC22D	Treatment	2	3	Barnesiellaceae	0.00129394	31
+CC23A	Treatment	2	0	Barnesiellaceae	0.000520833	27
+CC23B	Treatment	2	1	Barnesiellaceae	0.000656864	12
+CC23C	Treatment	2	2	Barnesiellaceae	0	37
+CC23D	Treatment	2	3	Barnesiellaceae	0.000187248	18
+CC24A	Treatment	2	0	Barnesiellaceae	0.010669647	1
+CC24B	Treatment	2	1	Barnesiellaceae	0.002664636	4
+CC24D	Treatment	2	3	Barnesiellaceae	0.00180024	14
+CC01A	Control	1	0	Peptostreptococcaceae	0.014782877	85
+CC01B	Control	1	1	Peptostreptococcaceae	0.003923048	16
+CC01C	Control	1	2	Peptostreptococcaceae	0.010769532	2
+CC01D	Control	1	3	Peptostreptococcaceae	0.002509232	23
+CC02A	Control	1	0	Peptostreptococcaceae	0.016206221	1
+CC02B	Control	1	1	Peptostreptococcaceae	0.004822512	0
+CC02C	Control	1	2	Peptostreptococcaceae	0.003143614	10
+CC02D	Control	1	3	Peptostreptococcaceae	0.002459792	337
+CC03A	Control	1	0	Peptostreptococcaceae	0.01293331	9
+CC03B	Control	1	1	Peptostreptococcaceae	0.056183841	83
+CC03C	Control	1	2	Peptostreptococcaceae	0.029556185	160
+CC03D	Control	1	3	Peptostreptococcaceae	0.0312984	212
+CC04A	Control	1	0	Peptostreptococcaceae	0.006879217	33
+CC04B	Control	1	1	Peptostreptococcaceae	0.012900867	104
+CC04C	Control	1	2	Peptostreptococcaceae	0.011446918	145
+CC04D	Control	1	3	Peptostreptococcaceae	0.025680833	245
+CC05A	Control	1	0	Peptostreptococcaceae	0.001657205	87
+CC05B	Control	1	1	Peptostreptococcaceae	0.004232477	28
+CC05C	Control	1	2	Peptostreptococcaceae	0.022070648	22
+CC05D	Control	1	3	Peptostreptococcaceae	0.015916593	200
+CC06C	Control	1	2	Peptostreptococcaceae	0.005384012	8
+CC06D	Control	1	3	Peptostreptococcaceae	0.000882988	10
+CC07A	Control	1	0	Peptostreptococcaceae	0.023783686	77
+CC07B	Control	1	1	Peptostreptococcaceae	0.021841016	41
+CC07C	Control	1	2	Peptostreptococcaceae	0.010947916	24
+CC07D	Control	1	3	Peptostreptococcaceae	0.003257026	32
+CC08A	Control	1	0	Peptostreptococcaceae	0.001325908	0
+CC08B	Control	1	1	Peptostreptococcaceae	0.05972714	26
+CC08C	Control	1	2	Peptostreptococcaceae	0.005749605	20
+CC08D	Control	1	3	Peptostreptococcaceae	0.028180804	53
+CC09A	Control	1	0	Peptostreptococcaceae	0.011484253	77
+CC09B	Control	1	1	Peptostreptococcaceae	0.029836742	133
+CC09C	Control	1	2	Peptostreptococcaceae	0.060282713	9
+CC09D	Control	1	3	Peptostreptococcaceae	0.005086072	2
+CC10A	Control	1	0	Peptostreptococcaceae	0.006181843	231
+CC11A	Control	1	0	Peptostreptococcaceae	0.024208434	18
+CC11B	Control	1	1	Peptostreptococcaceae	0.02102719	21
+CC11C	Control	1	2	Peptostreptococcaceae	0.039429454	146
+CC11D	Control	1	3	Peptostreptococcaceae	0.023993333	4
+CC12A	Control	1	0	Peptostreptococcaceae	0.020477022	0
+CC12B	Control	1	1	Peptostreptococcaceae	0.015845233	12
+CC12C	Control	1	2	Peptostreptococcaceae	0.042840143	21
+CC12D	Control	1	3	Peptostreptococcaceae	0.012700079	8
+CC13A	Treatment	2	0	Peptostreptococcaceae	0.01437247	15
+CC13B	Treatment	2	1	Peptostreptococcaceae	0.017904994	12
+CC13C	Treatment	2	2	Peptostreptococcaceae	0.059015206	177
+CC13D	Treatment	2	3	Peptostreptococcaceae	0.052969843	84
+CC14A	Treatment	2	0	Peptostreptococcaceae	0.00192637	62
+CC14B	Treatment	2	1	Peptostreptococcaceae	0.000418866	43
+CC14C	Treatment	2	2	Peptostreptococcaceae	0.000846409	63
+CC14D	Treatment	2	3	Peptostreptococcaceae	0.02016369	188
+CC15A	Treatment	2	0	Peptostreptococcaceae	0.000808357	1
+CC15B	Treatment	2	1	Peptostreptococcaceae	0.000760852	2
+CC15C	Treatment	2	2	Peptostreptococcaceae	0.011208836	202
+CC15D	Treatment	2	3	Peptostreptococcaceae	0.003552972	28
+CC16A	Treatment	2	0	Peptostreptococcaceae	0.029090762	229
+CC16B	Treatment	2	1	Peptostreptococcaceae	0.006131999	56
+CC16C	Treatment	2	2	Peptostreptococcaceae	0.001474111	45
+CC16D	Treatment	2	3	Peptostreptococcaceae	0.006268886	127
+CC17A	Treatment	2	0	Peptostreptococcaceae	0.004394552	40
+CC17B	Treatment	2	1	Peptostreptococcaceae	0.00270438	143
+CC17C	Treatment	2	2	Peptostreptococcaceae	0.007972833	432
+CC17D	Treatment	2	3	Peptostreptococcaceae	0.003571429	52
+CC18A	Treatment	2	0	Peptostreptococcaceae	0.046547775	57
+CC18C	Treatment	2	2	Peptostreptococcaceae	0.000676465	42
+CC18D	Treatment	2	3	Peptostreptococcaceae	0.005099842	182
+CC19A	Treatment	2	0	Peptostreptococcaceae	0.001853024	24
+CC19B	Treatment	2	1	Peptostreptococcaceae	0.001721788	8
+CC19C	Treatment	2	2	Peptostreptococcaceae	0.001131094	124
+CC19D	Treatment	2	3	Peptostreptococcaceae	0.004841549	384
+CC20A	Treatment	2	0	Peptostreptococcaceae	0.011535113	418
+CC20B	Treatment	2	1	Peptostreptococcaceae	0.002395136	59
+CC20C	Treatment	2	2	Peptostreptococcaceae	0.007766643	145
+CC20D	Treatment	2	3	Peptostreptococcaceae	0.001565283	122
+CC21A	Treatment	2	0	Peptostreptococcaceae	0.001083913	4
+CC21B	Treatment	2	1	Peptostreptococcaceae	0.000824742	5
+CC21C	Treatment	2	2	Peptostreptococcaceae	0.00103534	39
+CC21D	Treatment	2	3	Peptostreptococcaceae	0.000822989	11
+CC22A	Treatment	2	0	Peptostreptococcaceae	0.089537295	137
+CC22B	Treatment	2	1	Peptostreptococcaceae	0.009194557	34
+CC22C	Treatment	2	2	Peptostreptococcaceae	0.039638253	14
+CC22D	Treatment	2	3	Peptostreptococcaceae	0.022356409	122
+CC23A	Treatment	2	0	Peptostreptococcaceae	0.047786458	36
+CC23B	Treatment	2	1	Peptostreptococcaceae	0.041180334	334
+CC23C	Treatment	2	2	Peptostreptococcaceae	0.058510638	294
+CC23D	Treatment	2	3	Peptostreptococcaceae	0.058842805	11
+CC24A	Treatment	2	0	Peptostreptococcaceae	0.032720252	26
+CC24B	Treatment	2	1	Peptostreptococcaceae	0.000380662	24
+CC24D	Treatment	2	3	Peptostreptococcaceae	0.002600347	306
+CC01A	Control	1	0	Clostridiales	0.00079194	56
+CC01B	Control	1	1	Clostridiales	0.003621275	27
+CC01C	Control	1	2	Clostridiales	0.001109588	10
+CC01D	Control	1	3	Clostridiales	0.001846416	16
+CC02A	Control	1	0	Clostridiales	0.000471322	14
+CC02B	Control	1	1	Clostridiales	0.003927613	19
+CC02C	Control	1	2	Clostridiales	0.004756784	36
+CC02D	Control	1	3	Clostridiales	0.0012772	25
+CC03A	Control	1	0	Clostridiales	0.000615872	14
+CC03B	Control	1	1	Clostridiales	0.002352303	25
+CC03C	Control	1	2	Clostridiales	0.001888574	207
+CC03D	Control	1	3	Clostridiales	0.00348477	301
+CC04A	Control	1	0	Clostridiales	0.001719804	20
+CC04B	Control	1	1	Clostridiales	0.001723598	29
+CC04C	Control	1	2	Clostridiales	0.002093948	15
+CC04D	Control	1	3	Clostridiales	0.002199366	10
+CC05A	Control	1	0	Clostridiales	0.000493636	30
+CC05B	Control	1	1	Clostridiales	0.002684009	10
+CC05C	Control	1	2	Clostridiales	0.005878112	95
+CC05D	Control	1	3	Clostridiales	0.001895611	44
+CC06C	Control	1	2	Clostridiales	0.004492619	64
+CC06D	Control	1	3	Clostridiales	0.000457846	4
+CC07A	Control	1	0	Clostridiales	0.000542594	14
+CC07B	Control	1	1	Clostridiales	0.00172908	35
+CC07C	Control	1	2	Clostridiales	0.000975557	27
+CC07D	Control	1	3	Clostridiales	0.001116695	6
+CC08A	Control	1	0	Clostridiales	0.000132591	27
+CC08B	Control	1	1	Clostridiales	0.004217871	350
+CC08C	Control	1	2	Clostridiales	0.009199368	33
+CC08D	Control	1	3	Clostridiales	0.001767113	164
+CC09A	Control	1	0	Clostridiales	0.001218027	31
+CC09B	Control	1	1	Clostridiales	0.007130794	133
+CC09C	Control	1	2	Clostridiales	0.002475111	39
+CC09D	Control	1	3	Clostridiales	0.001017214	13
+CC10A	Control	1	0	Clostridiales	0.001041884	15
+CC11A	Control	1	0	Clostridiales	0.001064887	540
+CC11B	Control	1	1	Clostridiales	0.003021148	192
+CC11C	Control	1	2	Clostridiales	0.001998728	851
+CC11D	Control	1	3	Clostridiales	0.001666813	945
+CC12A	Control	1	0	Clostridiales	0.000116347	5
+CC12B	Control	1	1	Clostridiales	0.003684938	298
+CC12C	Control	1	2	Clostridiales	0.00198334	419
+CC12D	Control	1	3	Clostridiales	0.001364471	18
+CC13A	Treatment	2	0	Clostridiales	0.007591093	42
+CC13B	Treatment	2	1	Clostridiales	0.007551766	32
+CC13C	Treatment	2	2	Clostridiales	0.001568911	325
+CC13D	Treatment	2	3	Clostridiales	0.00218942	277
+CC14A	Treatment	2	0	Clostridiales	0.000695634	24
+CC14B	Treatment	2	1	Clostridiales	0.000502639	10
+CC14C	Treatment	2	2	Clostridiales	0.000325542	69
+CC14D	Treatment	2	3	Clostridiales	0.001822917	47
+CC15A	Treatment	2	0	Clostridiales	0.000186544	2
+CC15B	Treatment	2	1	Clostridiales	0.002202467	4
+CC15C	Treatment	2	2	Clostridiales	0.001309061	29
+CC15D	Treatment	2	3	Clostridiales	0.000784422	17
+CC16A	Treatment	2	0	Clostridiales	0.003408123	62
+CC16B	Treatment	2	1	Clostridiales	0.002138131	30
+CC16C	Treatment	2	2	Clostridiales	0.001474111	5
+CC16D	Treatment	2	3	Clostridiales	0.001127497	21
+CC17A	Treatment	2	0	Clostridiales	0.000739677	20
+CC17B	Treatment	2	1	Clostridiales	0.002438376	20
+CC17C	Treatment	2	2	Clostridiales	0.001574881	27
+CC17D	Treatment	2	3	Clostridiales	0.002472527	7
+CC18A	Treatment	2	0	Clostridiales	0.000327225	6
+CC18C	Treatment	2	2	Clostridiales	0.000737962	11
+CC18D	Treatment	2	3	Clostridiales	0.002514007	18
+CC19A	Treatment	2	0	Clostridiales	0.00094911	30
+CC19B	Treatment	2	1	Clostridiales	0.00064567	8
+CC19C	Treatment	2	2	Clostridiales	0.005994797	11
+CC19D	Treatment	2	3	Clostridiales	0.001662754	27
+CC20A	Treatment	2	0	Clostridiales	0.000798027	22
+CC20B	Treatment	2	1	Clostridiales	0.002088067	18
+CC20C	Treatment	2	2	Clostridiales	0.001181102	40
+CC20D	Treatment	2	3	Clostridiales	0.001187456	25
+CC21A	Treatment	2	0	Clostridiales	0.000632283	7
+CC21B	Treatment	2	1	Clostridiales	0.001413844	10
+CC21C	Treatment	2	2	Clostridiales	0.000966317	6
+CC21D	Treatment	2	3	Clostridiales	0.000822989	4
+CC22A	Treatment	2	0	Clostridiales	0.006936995	108
+CC22B	Treatment	2	1	Clostridiales	0.000514895	226
+CC22C	Treatment	2	2	Clostridiales	0.000192419	428
+CC22D	Treatment	2	3	Clostridiales	0.004672561	996
+CC23A	Treatment	2	0	Clostridiales	0.005859375	10
+CC23B	Treatment	2	1	Clostridiales	0.002576929	38
+CC23C	Treatment	2	2	Clostridiales	0.006648936	69
+CC23D	Treatment	2	3	Clostridiales	0.001451175	23
+CC24A	Treatment	2	0	Clostridiales	0.000203231	11
+CC24B	Treatment	2	1	Clostridiales	0.000570994	9
+CC24D	Treatment	2	3	Clostridiales	0.001733564	16
+CC01A	Control	1	0	Methanosphaera	0.003739716	1412
+CC01B	Control	1	1	Methanosphaera	0.001207092	617
+CC01C	Control	1	2	Methanosphaera	0.00013054	525
+CC01D	Control	1	3	Methanosphaera	0.001088912	1459
+CC02A	Control	1	0	Methanosphaera	3.63E-05	1418
+CC02B	Control	1	1	Methanosphaera	0	1342
+CC02C	Control	1	2	Methanosphaera	0.000413633	679
+CC02D	Control	1	3	Methanosphaera	0.015941343	794
+CC03A	Control	1	0	Methanosphaera	0.000791835	1123
+CC03B	Control	1	1	Methanosphaera	0.007599747	394
+CC03C	Control	1	2	Methanosphaera	0.01529745	482
+CC03D	Control	1	3	Methanosphaera	0.013745483	812
+CC04A	Control	1	0	Methanosphaera	0.002315121	2167
+CC04B	Control	1	1	Methanosphaera	0.005431944	834
+CC04C	Control	1	2	Methanosphaera	0.010120751	1127
+CC04D	Control	1	3	Methanosphaera	0.016042435	722
+CC05A	Control	1	0	Methanosphaera	0.003067593	1574
+CC05B	Control	1	1	Methanosphaera	0.002993703	484
+CC05C	Control	1	2	Methanosphaera	0.001219986	531
+CC05D	Control	1	3	Methanosphaera	0.006601954	1084
+CC06C	Control	1	2	Methanosphaera	0.000285246	936
+CC06D	Control	1	3	Methanosphaera	0.000327033	1157
+CC07A	Control	1	0	Methanosphaera	0.006963284	848
+CC07B	Control	1	1	Methanosphaera	0.001911089	2735
+CC07C	Control	1	2	Methanosphaera	0.001300743	524
+CC07D	Control	1	3	Methanosphaera	0.002977852	270
+CC08A	Control	1	0	Methanosphaera	0	658
+CC08B	Control	1	1	Methanosphaera	0.00145803	981
+CC08C	Control	1	2	Methanosphaera	0.001509271	548
+CC08D	Control	1	3	Methanosphaera	0.004929315	421
+CC09A	Control	1	0	Methanosphaera	0.003349574	1630
+CC09B	Control	1	1	Methanosphaera	0.005029086	881
+CC09C	Control	1	2	Methanosphaera	0.000495022	980
+CC09D	Control	1	3	Methanosphaera	0.000156495	473
+CC10A	Control	1	0	Methanosphaera	0.016114468	1602
+CC11A	Control	1	0	Methanosphaera	0.001277865	1199
+CC11B	Control	1	1	Methanosphaera	0.000845921	524
+CC11C	Control	1	2	Methanosphaera	0.013355138	416
+CC11D	Control	1	3	Methanosphaera	0.000175454	1070
+CC12A	Control	1	0	Methanosphaera	0	576
+CC12B	Control	1	1	Methanosphaera	0.001105481	637
+CC12C	Control	1	2	Methanosphaera	0.002776676	331
+CC12D	Control	1	3	Methanosphaera	0.000419837	506
+CC13A	Treatment	2	0	Methanosphaera	0.001518219	273
+CC13B	Treatment	2	1	Methanosphaera	0.001705238	340
+CC13C	Treatment	2	2	Methanosphaera	0.010680666	346
+CC13D	Treatment	2	3	Methanosphaera	0.006003249	1478
+CC14A	Treatment	2	0	Methanosphaera	0.003317637	2409
+CC14B	Treatment	2	1	Methanosphaera	0.001884896	591
+CC14C	Treatment	2	2	Methanosphaera	0.00410183	602
+CC14D	Treatment	2	3	Methanosphaera	0.006994048	1954
+CC15A	Treatment	2	0	Methanosphaera	6.22E-05	1241
+CC15B	Treatment	2	1	Methanosphaera	8.01E-05	493
+CC15C	Treatment	2	2	Methanosphaera	0.008386173	538
+CC15D	Treatment	2	3	Methanosphaera	0.00129199	603
+CC16A	Treatment	2	0	Methanosphaera	0.009331765	2501
+CC16B	Treatment	2	1	Methanosphaera	0.0022995	1662
+CC16C	Treatment	2	2	Methanosphaera	0.008291874	143
+CC16D	Treatment	2	3	Methanosphaera	0.005772787	986
+CC17A	Treatment	2	0	Methanosphaera	0.001740417	2293
+CC17B	Treatment	2	1	Methanosphaera	0.006472779	2264
+CC17C	Treatment	2	2	Methanosphaera	0.021359319	1264
+CC17D	Treatment	2	3	Methanosphaera	0.004761905	528
+CC18A	Treatment	2	0	Methanosphaera	0.004662958	2128
+CC18C	Treatment	2	2	Methanosphaera	0.002644364	811
+CC18D	Treatment	2	3	Methanosphaera	0.013144663	847
+CC19A	Treatment	2	0	Methanosphaera	0.001084697	1020
+CC19B	Treatment	2	1	Methanosphaera	0.000573929	661
+CC19C	Treatment	2	2	Methanosphaera	0.014025563	615
+CC19D	Treatment	2	3	Methanosphaera	0.018779343	2595
+CC20A	Treatment	2	0	Methanosphaera	0.030325015	941
+CC20B	Treatment	2	1	Methanosphaera	0.003684825	715
+CC20C	Treatment	2	2	Methanosphaera	0.005225483	1938
+CC20D	Treatment	2	3	Methanosphaera	0.006584984	1291
+CC21A	Treatment	2	0	Methanosphaera	0.000361304	1067
+CC21B	Treatment	2	1	Methanosphaera	0.000294551	515
+CC21C	Treatment	2	2	Methanosphaera	0.002898951	438
+CC21D	Treatment	2	3	Methanosphaera	0.000754406	621
+CC22A	Treatment	2	0	Methanosphaera	0.009797611	761
+CC22B	Treatment	2	1	Methanosphaera	0.002500919	694
+CC22C	Treatment	2	2	Methanosphaera	0.002693862	291
+CC22D	Treatment	2	3	Methanosphaera	0.008770038	839
+CC23A	Treatment	2	0	Methanosphaera	0.0046875	469
+CC23B	Treatment	2	1	Methanosphaera	0.016926886	1383
+CC23C	Treatment	2	2	Methanosphaera	0.030380524	690
+CC23D	Treatment	2	3	Methanosphaera	0.000514933	1725
+CC24A	Treatment	2	0	Methanosphaera	0.002642008	759
+CC24B	Treatment	2	1	Methanosphaera	0.001522649	1881
+CC24D	Treatment	2	3	Methanosphaera	0.02040272	1021
+CC01A	Control	1	0	Clostridiaceae	0.002551806	641
+CC01B	Control	1	1	Clostridiaceae	0.002263297	3
+CC01C	Control	1	2	Clostridiaceae	0.000913778	4
+CC01D	Control	1	3	Clostridiaceae	0.001088912	63
+CC02A	Control	1	0	Clostridiaceae	0.000580088	106
+CC02B	Control	1	1	Clostridiaceae	0.000944616	5
+CC02C	Control	1	2	Clostridiaceae	0.001944077	40
+CC02D	Control	1	3	Clostridiaceae	0.001324503	45
+CC03A	Control	1	0	Clostridiaceae	0.001495689	33
+CC03B	Control	1	1	Clostridiaceae	0.002985615	2
+CC03C	Control	1	2	Clostridiaceae	0.020207743	3
+CC03D	Control	1	3	Clostridiaceae	0.020198761	14
+CC04A	Control	1	0	Clostridiaceae	0.001587512	541
+CC04B	Control	1	1	Clostridiaceae	0.001880288	116
+CC04C	Control	1	2	Clostridiaceae	0.001465764	19
+CC04D	Control	1	3	Clostridiaceae	0.00116437	28
+CC05A	Control	1	0	Clostridiaceae	0.00116357	551
+CC05B	Control	1	1	Clostridiaceae	0.001651698	4
+CC05C	Control	1	2	Clostridiaceae	0.00798536	103
+CC05D	Control	1	3	Clostridiaceae	0.001732196	6
+CC06C	Control	1	2	Clostridiaceae	0.002674178	128
+CC06D	Control	1	3	Clostridiaceae	0.000228923	323
+CC07A	Control	1	0	Clostridiaceae	0.001266052	237
+CC07B	Control	1	1	Clostridiaceae	0.002002093	29
+CC07C	Control	1	2	Clostridiaceae	0.001951114	598
+CC07D	Control	1	3	Clostridiaceae	0.000744463	295
+CC08A	Control	1	0	Clostridiaceae	0.008750994	1
+CC08B	Control	1	1	Clostridiaceae	0.019943762	11
+CC08C	Control	1	2	Clostridiaceae	0.002587322	3
+CC08D	Control	1	3	Clostridiaceae	0.015811012	7
+CC09A	Control	1	0	Clostridiaceae	0.001696537	56
+CC09B	Control	1	1	Clostridiaceae	0.005929818	46
+CC09C	Control	1	2	Clostridiaceae	0.002585116	13
+CC09D	Control	1	3	Clostridiaceae	0.001486698	348
+CC10A	Control	1	0	Clostridiaceae	0.00125026	498
+CC11A	Control	1	0	Clostridiaceae	0.039116854	6
+CC11B	Control	1	1	Clostridiaceae	0.008660624	80
+CC11C	Control	1	2	Clostridiaceae	0.081493595	5
+CC11D	Control	1	3	Clostridiaceae	0.04303009	8
+CC12A	Control	1	0	Clostridiaceae	0.000814427	4
+CC12B	Control	1	1	Clostridiaceae	0.029479503	3
+CC12C	Control	1	2	Clostridiaceae	0.058442417	1
+CC12D	Control	1	3	Clostridiaceae	0.001049593	64
+CC13A	Treatment	2	0	Clostridiaceae	0.005263158	14
+CC13B	Treatment	2	1	Clostridiaceae	0.00682095	286
+CC13C	Treatment	2	2	Clostridiaceae	0.02087859	185
+CC13D	Treatment	2	3	Clostridiaceae	0.020057914	9
+CC14A	Treatment	2	0	Clostridiaceae	0.001498288	225
+CC14B	Treatment	2	1	Clostridiaceae	0.000418866	1137
+CC14C	Treatment	2	2	Clostridiaceae	0.00449248	256
+CC14D	Treatment	2	3	Clostridiaceae	0.002269345	12
+CC15A	Treatment	2	0	Clostridiaceae	0.000124363	2
+CC15B	Treatment	2	1	Clostridiaceae	0.000280314	197
+CC15C	Treatment	2	2	Clostridiaceae	0.001513602	607
+CC15D	Treatment	2	3	Clostridiaceae	0.000968992	137
+CC16A	Treatment	2	0	Clostridiaceae	0.003245831	132
+CC16B	Treatment	2	1	Clostridiaceae	0.001654026	330
+CC16C	Treatment	2	2	Clostridiaceae	0.001105583	69
+CC16D	Treatment	2	3	Clostridiaceae	0.001127497	2529
+CC17A	Treatment	2	0	Clostridiaceae	0.000957229	316
+CC17B	Treatment	2	1	Clostridiaceae	0.001064018	4
+CC17C	Treatment	2	2	Clostridiaceae	0.001722526	19
+CC17D	Treatment	2	3	Clostridiaceae	0.001007326	1
+CC18A	Treatment	2	0	Clostridiaceae	0.00065445	1099
+CC18C	Treatment	2	2	Clostridiaceae	0.000799459	393
+CC18D	Treatment	2	3	Clostridiaceae	0.001652061	387
+CC19A	Treatment	2	0	Clostridiaceae	0.001446262	35
+CC19B	Treatment	2	1	Clostridiaceae	0.000789153	390
+CC19C	Treatment	2	2	Clostridiaceae	0.001470422	10
+CC19D	Treatment	2	3	Clostridiaceae	0.001516041	6
+CC20A	Treatment	2	0	Clostridiaceae	0.001668601	36
+CC20B	Treatment	2	1	Clostridiaceae	0.001166861	154
+CC20C	Treatment	2	2	Clostridiaceae	0.001717967	250
+CC20D	Treatment	2	3	Clostridiaceae	0.001403357	375
+CC21A	Treatment	2	0	Clostridiaceae	0.000632283	376
+CC21B	Treatment	2	1	Clostridiaceae	0.000648012	3
+CC21C	Treatment	2	2	Clostridiaceae	0.000414136	5
+CC21D	Treatment	2	3	Clostridiaceae	0.000411494	14
+CC22A	Treatment	2	0	Clostridiaceae	0.011585497	626
+CC22B	Treatment	2	1	Clostridiaceae	0.016844428	2
+CC22C	Treatment	2	2	Clostridiaceae	0.082932461	2
+CC22D	Treatment	2	3	Clostridiaceae	0.074473438	11
+CC23A	Treatment	2	0	Clostridiaceae	0.001822917	7
+CC23B	Treatment	2	1	Clostridiaceae	0.002779041	410
+CC23C	Treatment	2	2	Clostridiaceae	0.009410802	7
+CC23D	Treatment	2	3	Clostridiaceae	0.001497987	2
+CC24A	Treatment	2	0	Clostridiaceae	0.001117773	168
+CC24B	Treatment	2	1	Clostridiaceae	0.000570994	1031
+CC24D	Treatment	2	3	Clostridiaceae	0.001133484	41
+CC01A	Control	1	0	Bacteroides	0.062739232	202
+CC01B	Control	1	1	Bacteroides	0.049188985	30
+CC01C	Control	1	2	Bacteroides	0.034919392	52
+CC01D	Control	1	3	Bacteroides	0.070495218	28
+CC02A	Control	1	0	Bacteroides	0.05206294	19
+CC02B	Control	1	1	Bacteroides	0.068857512	10
+CC02C	Control	1	2	Bacteroides	0.030567505	14
+CC02D	Control	1	3	Bacteroides	0.03807947	26
+CC03A	Control	1	0	Bacteroides	0.100475101	130
+CC03B	Control	1	1	Bacteroides	0.036370216	452
+CC03C	Control	1	2	Bacteroides	0.047214353	772
+CC03D	Control	1	3	Bacteroides	0.054013939	1594
+CC04A	Control	1	0	Bacteroides	0.148101601	17
+CC04B	Control	1	1	Bacteroides	0.045126919	17
+CC04C	Control	1	2	Bacteroides	0.081663991	24
+CC04D	Control	1	3	Bacteroides	0.04870949	17
+CC05A	Control	1	0	Bacteroides	0.055957124	30
+CC05B	Control	1	1	Bacteroides	0.052028492	15
+CC05C	Control	1	2	Bacteroides	0.034159596	414
+CC05D	Control	1	3	Bacteroides	0.036278066	252
+CC06C	Control	1	2	Bacteroides	0.036154888	9
+CC06D	Control	1	3	Bacteroides	0.039113088	21
+CC07A	Control	1	0	Bacteroides	0.077048291	24
+CC07B	Control	1	1	Bacteroides	0.126313874	31
+CC07C	Control	1	2	Bacteroides	0.029537694	22
+CC07D	Control	1	3	Bacteroides	0.026335381	7
+CC08A	Control	1	0	Bacteroides	0.087642535	158
+CC08B	Control	1	1	Bacteroides	0.052072485	1665
+CC08C	Control	1	2	Bacteroides	0.040175363	90
+CC08D	Control	1	3	Bacteroides	0.040364583	170
+CC09A	Control	1	0	Bacteroides	0.072472594	48
+CC09B	Control	1	1	Bacteroides	0.034340402	732
+CC09C	Control	1	2	Bacteroides	0.05489247	479
+CC09D	Control	1	3	Bacteroides	0.038654147	12
+CC10A	Control	1	0	Bacteroides	0.112940196	29
+CC11A	Control	1	0	Bacteroides	0.086894789	650
+CC11B	Control	1	1	Bacteroides	0.021913394	665
+CC11C	Control	1	2	Bacteroides	0.038702644	1041
+CC11D	Control	1	3	Bacteroides	0.048162119	927
+CC12A	Control	1	0	Bacteroides	0.067481094	406
+CC12B	Control	1	1	Bacteroides	0.061077844	705
+CC12C	Control	1	2	Bacteroides	0.044559037	1210
+CC12D	Control	1	3	Bacteroides	0.027184466	225
+CC13A	Treatment	2	0	Bacteroides	0.031477733	239
+CC13B	Treatment	2	1	Bacteroides	0.045066991	86
+CC13C	Treatment	2	2	Bacteroides	0.021421675	708
+CC13D	Treatment	2	3	Bacteroides	0.106928455	785
+CC14A	Treatment	2	0	Bacteroides	0.132116866	22
+CC14B	Treatment	2	1	Bacteroides	0.025592695	12
+CC14C	Treatment	2	2	Bacteroides	0.039390585	20
+CC14D	Treatment	2	3	Bacteroides	0.074962798	193
+CC15A	Treatment	2	0	Bacteroides	0.077602288	7
+CC15B	Treatment	2	1	Bacteroides	0.021343905	8
+CC15C	Treatment	2	2	Bacteroides	0.022540397	24
+CC15D	Treatment	2	3	Bacteroides	0.02911591	14
+CC16A	Treatment	2	0	Bacteroides	0.10447519	21
+CC16B	Treatment	2	1	Bacteroides	0.071284492	16
+CC16C	Treatment	2	2	Bacteroides	0.026533997	6
+CC16D	Treatment	2	3	Bacteroides	0.046001894	23
+CC17A	Treatment	2	0	Bacteroides	0.101857895	13
+CC17B	Treatment	2	1	Bacteroides	0.107421529	14
+CC17C	Treatment	2	2	Bacteroides	0.063388946	35
+CC17D	Treatment	2	3	Bacteroides	0.051282051	20
+CC18A	Treatment	2	0	Bacteroides	0.175474476	9
+CC18C	Treatment	2	2	Bacteroides	0.050980874	4
+CC18D	Treatment	2	3	Bacteroides	0.061916391	17
+CC19A	Treatment	2	0	Bacteroides	0.046822742	17
+CC19B	Treatment	2	1	Bacteroides	0.048783987	10
+CC19C	Treatment	2	2	Bacteroides	0.072390001	14
+CC19D	Treatment	2	3	Bacteroides	0.128961268	27
+CC20A	Treatment	2	0	Bacteroides	0.069138131	11
+CC20B	Treatment	2	1	Bacteroides	0.045998895	17
+CC20C	Treatment	2	2	Bacteroides	0.070722978	26
+CC20D	Treatment	2	3	Bacteroides	0.071895072	19
+CC21A	Treatment	2	0	Bacteroides	0.098726402	4
+CC21B	Treatment	2	1	Bacteroides	0.033873343	8
+CC21C	Treatment	2	2	Bacteroides	0.030715075	15
+CC21D	Treatment	2	3	Bacteroides	0.044372814	12
+CC22A	Treatment	2	0	Bacteroides	0.058571122	878
+CC22B	Treatment	2	1	Bacteroides	0.051563075	126
+CC22C	Treatment	2	2	Bacteroides	0.056763517	334
+CC22D	Treatment	2	3	Bacteroides	0.062324779	876
+CC23A	Treatment	2	0	Bacteroides	0.062239583	150
+CC23B	Treatment	2	1	Bacteroides	0.072810874	811
+CC23C	Treatment	2	2	Bacteroides	0.075081833	240
+CC23D	Treatment	2	3	Bacteroides	0.082155229	1725
+CC24A	Treatment	2	0	Bacteroides	0.078548928	16
+CC24B	Treatment	2	1	Bacteroides	0.123271158	3
+CC24D	Treatment	2	3	Bacteroides	0.069809308	22
+CC01A	Control			Phascolarctobacterium	0.02842184	
+CC01B	Control			Phascolarctobacterium	0.000301773	
+CC01C	Control			Phascolarctobacterium	0.00026108	
+CC01D	Control			Phascolarctobacterium	0.00307736	
+CC02A	Control			Phascolarctobacterium	0.003879342	
+CC02B	Control			Phascolarctobacterium	0.000248583	
+CC02C	Control			Phascolarctobacterium	0.001819987	
+CC02D	Control			Phascolarctobacterium	0.002128666	
+CC03A	Control			Phascolarctobacterium	0.002991378	
+CC03B	Control			Phascolarctobacterium	0.000180946	
+CC03C	Control			Phascolarctobacterium	0.000283286	
+CC03D	Control			Phascolarctobacterium	0.001032525	
+CC04A	Control			Phascolarctobacterium	0.037108083	
+CC04B	Control			Phascolarctobacterium	0.006267628	
+CC04C	Control			Phascolarctobacterium	0.001326167	
+CC04D	Control			Phascolarctobacterium	0.00187593	
+CC05A	Control			Phascolarctobacterium	0.019569127	
+CC05B	Control			Phascolarctobacterium	0.000516156	
+CC05C	Control			Phascolarctobacterium	0.006709921	
+CC05D	Control			Phascolarctobacterium	0.000196098	
+CC06C	Control			Phascolarctobacterium	0.004884832	
+CC06D	Control			Phascolarctobacterium	0.010824776	
+CC07A	Control			Phascolarctobacterium	0.021432447	
+CC07B	Control			Phascolarctobacterium	0.001456068	
+CC07C	Control			Phascolarctobacterium	0.032897946	
+CC07D	Control			Phascolarctobacterium	0.02810348	
+CC08A	Control			Phascolarctobacterium	0.000132591	
+CC08B	Control			Phascolarctobacterium	0.00062487	
+CC08C	Control			Phascolarctobacterium	0.00021561	
+CC08D	Control			Phascolarctobacterium	0.000744048	
+CC09A	Control			Phascolarctobacterium	0.002566556	
+CC09B	Control			Phascolarctobacterium	0.001838994	
+CC09C	Control			Phascolarctobacterium	0.000770035	
+CC09D	Control			Phascolarctobacterium	0.028325509	
+CC10A	Control			Phascolarctobacterium	0.034798916	
+CC11A	Control			Phascolarctobacterium	0.000425955	
+CC11B	Control			Phascolarctobacterium	0.003383686	
+CC11C	Control			Phascolarctobacterium	0.000454256	
+CC11D	Control			Phascolarctobacterium	0.000350908	
+CC12A	Control			Phascolarctobacterium	0.000465387	
+CC12B	Control			Phascolarctobacterium	0.000460617	
+CC12C	Control			Phascolarctobacterium	0.000264445	
+CC12D	Control			Phascolarctobacterium	0.003463658	
+CC13A	Treatment			Phascolarctobacterium	0.001619433	
+CC13B	Treatment			Phascolarctobacterium	0.037880633	
+CC13C	Treatment			Phascolarctobacterium	0.011163408	
+CC13D	Treatment			Phascolarctobacterium	0.000776891	
+CC14A	Treatment			Phascolarctobacterium	0.012414384	
+CC14B	Treatment			Phascolarctobacterium	0.048085784	
+CC14C	Treatment			Phascolarctobacterium	0.01673286	
+CC14D	Treatment			Phascolarctobacterium	0.000520833	
+CC15A	Treatment			Phascolarctobacterium	0.000186544	
+CC15B	Treatment			Phascolarctobacterium	0.008409419	
+CC15C	Treatment			Phascolarctobacterium	0.025158519	
+CC15D	Treatment			Phascolarctobacterium	0.006367663	
+CC16A	Treatment			Phascolarctobacterium	0.005883069	
+CC16B	Treatment			Phascolarctobacterium	0.014644183	
+CC16C	Treatment			Phascolarctobacterium	0.013082734	
+CC16D	Treatment			Phascolarctobacterium	0.115500834	
+CC17A	Treatment			Phascolarctobacterium	0.013966845	
+CC17B	Treatment			Phascolarctobacterium	0.000221671	
+CC17C	Treatment			Phascolarctobacterium	0.001033515	
+CC17D	Treatment			Phascolarctobacterium	9.16E-05	
+CC18A	Treatment			Phascolarctobacterium	0.09023233	
+CC18C	Treatment			Phascolarctobacterium	0.024229752	
+CC18D	Treatment			Phascolarctobacterium	0.028228703	
+CC19A	Treatment			Phascolarctobacterium	0.001672241	
+CC19B	Treatment			Phascolarctobacterium	0.02848124	
+CC19C	Treatment			Phascolarctobacterium	0.001131094	
+CC19D	Treatment			Phascolarctobacterium	0.000342332	
+CC20A	Treatment			Phascolarctobacterium	0.002684272	
+CC20B	Treatment			Phascolarctobacterium	0.009887613	
+CC20C	Treatment			Phascolarctobacterium	0.009019327	
+CC20D	Treatment			Phascolarctobacterium	0.020672532	
+CC21A	Treatment			Phascolarctobacterium	0.034504561	
+CC21B	Treatment			Phascolarctobacterium	0.000412371	
+CC21C	Treatment			Phascolarctobacterium	0.000345113	
+CC21D	Treatment			Phascolarctobacterium	0.001097318	
+CC22A	Treatment			Phascolarctobacterium	0.046413502	
+CC22B	Treatment			Phascolarctobacterium	0.000220669	
+CC22C	Treatment			Phascolarctobacterium	0.000577256	
+CC22D	Treatment			Phascolarctobacterium	0.000862627	
+CC23A	Treatment			Phascolarctobacterium	0.000911458	
+CC23B	Treatment			Phascolarctobacterium	0.02142388	
+CC23C	Treatment			Phascolarctobacterium	0.000818331	
+CC23D	Treatment			Phascolarctobacterium	9.36E-05	
+CC24A	Treatment			Phascolarctobacterium	0.017376283	
+CC24B	Treatment			Phascolarctobacterium	0.066489024	
+CC24D	Treatment			Phascolarctobacterium	0.002733698	
+CC01A	Control			Turicibacter	0.009019315	
+CC01B	Control			Turicibacter	0.00256507	
+CC01C	Control			Turicibacter	0.003655114	
+CC01D	Control			Turicibacter	0.001467664	
+CC02A	Control			Turicibacter	0.000688855	
+CC02B	Control			Turicibacter	0.000546883	
+CC02C	Control			Turicibacter	0.00062045	
+CC02D	Control			Turicibacter	0.001466414	
+CC03A	Control			Turicibacter	0.012053493	
+CC03B	Control			Turicibacter	0.041527187	
+CC03C	Control			Turicibacter	0.074126534	
+CC03D	Control			Turicibacter	0.104543108	
+CC04A	Control			Turicibacter	0.001190634	
+CC04B	Control			Turicibacter	0.001096835	
+CC04C	Control			Turicibacter	0.001814755	
+CC04D	Control			Turicibacter	0.001229058	
+CC05A	Control			Turicibacter	0.00112831	
+CC05B	Control			Turicibacter	0.001548467	
+CC05C	Control			Turicibacter	0.027006044	
+CC05D	Control			Turicibacter	0.008432199	
+CC06C	Control			Turicibacter	0.000356557	
+CC06D	Control			Turicibacter	0.000719472	
+CC07A	Control			Turicibacter	0.002170374	
+CC07B	Control			Turicibacter	0.00150157	
+CC07C	Control			Turicibacter	0.001300743	
+CC07D	Control			Turicibacter	0.000651405	
+CC08A	Control			Turicibacter	0.02094935	
+CC08B	Control			Turicibacter	0.088731514	
+CC08C	Control			Turicibacter	0.006612045	
+CC08D	Control			Turicibacter	0.016462054	
+CC09A	Control			Turicibacter	0.002175048	
+CC09B	Control			Turicibacter	0.028560706	
+CC09C	Control			Turicibacter	0.026786205	
+CC09D	Control			Turicibacter	0.001017214	
+CC10A	Control			Turicibacter	0.002222685	
+CC11A	Control			Turicibacter	0.046500071	
+CC11B	Control			Turicibacter	0.028439074	
+CC11C	Control			Turicibacter	0.097210866	
+CC11D	Control			Turicibacter	0.041451004	
+CC12A	Control			Turicibacter	0.047353112	
+CC12B	Control			Turicibacter	0.068079226	
+CC12C	Control			Turicibacter	0.161708317	
+CC12D	Control			Turicibacter	0.012070323	
+CC13A	Treatment			Turicibacter	0.02611336	
+CC13B	Treatment			Turicibacter	0.012423873	
+CC13C	Treatment			Turicibacter	0.043326092	
+CC13D	Treatment			Turicibacter	0.056430539	
+CC14A	Treatment			Turicibacter	0.001337757	
+CC14B	Treatment			Turicibacter	0.000712072	
+CC14C	Treatment			Turicibacter	0.001367277	
+CC14D	Treatment			Turicibacter	0.007589286	
+CC15A	Treatment			Turicibacter	0.000435269	
+CC15B	Treatment			Turicibacter	0.000360404	
+CC15C	Treatment			Turicibacter	0.000981796	
+CC15D	Treatment			Turicibacter	0.000645995	
+CC16A	Treatment			Turicibacter	0.000973749	
+CC16B	Treatment			Turicibacter	0.0007665	
+CC16C	Treatment			Turicibacter	0.001105583	
+CC16D	Treatment			Turicibacter	0.001217697	
+CC17A	Treatment			Turicibacter	0.000565635	
+CC17B	Treatment			Turicibacter	0.00075368	
+CC17C	Treatment			Turicibacter	0.001919386	
+CC17D	Treatment			Turicibacter	0.001831502	
+CC18A	Treatment			Turicibacter	0.000899869	
+CC18C	Treatment			Turicibacter	0.000307484	
+CC18D	Treatment			Turicibacter	0.001364746	
+CC19A	Treatment			Turicibacter	0.00094911	
+CC19B	Treatment			Turicibacter	0.000717412	
+CC19C	Treatment			Turicibacter	0.001922859	
+CC19D	Treatment			Turicibacter	0.001369327	
+CC20A	Treatment			Turicibacter	0.000870575	
+CC20B	Treatment			Turicibacter	0.001044034	
+CC20C	Treatment			Turicibacter	0.001037938	
+CC20D	Treatment			Turicibacter	0.001079506	
+CC21A	Treatment			Turicibacter	0.000361304	
+CC21B	Treatment			Turicibacter	0.000471281	
+CC21C	Treatment			Turicibacter	0.00131143	
+CC21D	Treatment			Turicibacter	0.000822989	
+CC22A	Treatment			Turicibacter	0.065722663	
+CC22B	Treatment			Turicibacter	0.009562339	
+CC22C	Treatment			Turicibacter	0.064460266	
+CC22D	Treatment			Turicibacter	0.065272087	
+CC23A	Treatment			Turicibacter	0.020703125	
+CC23B	Treatment			Turicibacter	0.041837199	
+CC23C	Treatment			Turicibacter	0.025981997	
+CC23D	Treatment			Turicibacter	0.081546672	
+CC24A	Treatment			Turicibacter	0.001829082	
+CC24B	Treatment			Turicibacter	0.000190331	
+CC24D	Treatment			Turicibacter	0.001733564	
+CC01A	Control			Desulfovibrionaceae	8.80E-05	
+CC01B	Control			Desulfovibrionaceae	0	
+CC01C	Control			Desulfovibrionaceae	0.00019581	
+CC01D	Control			Desulfovibrionaceae	0	
+CC02A	Control			Desulfovibrionaceae	0	
+CC02B	Control			Desulfovibrionaceae	0	
+CC02C	Control			Desulfovibrionaceae	4.14E-05	
+CC02D	Control			Desulfovibrionaceae	4.73E-05	
+CC03A	Control			Desulfovibrionaceae	0	
+CC03B	Control			Desulfovibrionaceae	0	
+CC03C	Control			Desulfovibrionaceae	0	
+CC03D	Control			Desulfovibrionaceae	0	
+CC04A	Control			Desulfovibrionaceae	0.000198439	
+CC04B	Control			Desulfovibrionaceae	0	
+CC04C	Control			Desulfovibrionaceae	6.98E-05	
+CC04D	Control			Desulfovibrionaceae	0	
+CC05A	Control			Desulfovibrionaceae	0	
+CC05B	Control			Desulfovibrionaceae	0	
+CC05C	Control			Desulfovibrionaceae	0	
+CC05D	Control			Desulfovibrionaceae	3.27E-05	
+CC06C	Control			Desulfovibrionaceae	3.57E-05	
+CC06D	Control			Desulfovibrionaceae	0	
+CC07A	Control			Desulfovibrionaceae	0	
+CC07B	Control			Desulfovibrionaceae	0	
+CC07C	Control			Desulfovibrionaceae	0	
+CC07D	Control			Desulfovibrionaceae	0	
+CC08A	Control			Desulfovibrionaceae	0	
+CC08B	Control			Desulfovibrionaceae	0	
+CC08C	Control			Desulfovibrionaceae	7.19E-05	
+CC08D	Control			Desulfovibrionaceae	0	
+CC09A	Control			Desulfovibrionaceae	0	
+CC09B	Control			Desulfovibrionaceae	3.75E-05	
+CC09C	Control			Desulfovibrionaceae	0	
+CC09D	Control			Desulfovibrionaceae	7.82E-05	
+CC10A	Control			Desulfovibrionaceae	6.95E-05	
+CC11A	Control			Desulfovibrionaceae	0	
+CC11B	Control			Desulfovibrionaceae	0	
+CC11C	Control			Desulfovibrionaceae	0	
+CC11D	Control			Desulfovibrionaceae	0	
+CC12A	Control			Desulfovibrionaceae	0	
+CC12B	Control			Desulfovibrionaceae	0	
+CC12C	Control			Desulfovibrionaceae	0	
+CC12D	Control			Desulfovibrionaceae	0	
+CC13A	Treatment			Desulfovibrionaceae	0	
+CC13B	Treatment			Desulfovibrionaceae	0	
+CC13C	Treatment			Desulfovibrionaceae	0	
+CC13D	Treatment			Desulfovibrionaceae	7.06E-05	
+CC14A	Treatment			Desulfovibrionaceae	0	
+CC14B	Treatment			Desulfovibrionaceae	0	
+CC14C	Treatment			Desulfovibrionaceae	0	
+CC14D	Treatment			Desulfovibrionaceae	0	
+CC15A	Treatment			Desulfovibrionaceae	0	
+CC15B	Treatment			Desulfovibrionaceae	0	
+CC15C	Treatment			Desulfovibrionaceae	0	
+CC15D	Treatment			Desulfovibrionaceae	4.61E-05	
+CC16A	Treatment			Desulfovibrionaceae	0	
+CC16B	Treatment			Desulfovibrionaceae	0.000121026	
+CC16C	Treatment			Desulfovibrionaceae	0	
+CC16D	Treatment			Desulfovibrionaceae	0.000270599	
+CC17A	Treatment			Desulfovibrionaceae	0.000174042	
+CC17B	Treatment			Desulfovibrionaceae	0.000177336	
+CC17C	Treatment			Desulfovibrionaceae	0	
+CC17D	Treatment			Desulfovibrionaceae	0	
+CC18A	Treatment			Desulfovibrionaceae	8.18E-05	
+CC18C	Treatment			Desulfovibrionaceae	6.15E-05	
+CC18D	Treatment			Desulfovibrionaceae	0	
+CC19A	Treatment			Desulfovibrionaceae	0	
+CC19B	Treatment			Desulfovibrionaceae	0	
+CC19C	Treatment			Desulfovibrionaceae	0.000113109	
+CC19D	Treatment			Desulfovibrionaceae	4.89E-05	
+CC20A	Treatment			Desulfovibrionaceae	0	
+CC20B	Treatment			Desulfovibrionaceae	6.14E-05	
+CC20C	Treatment			Desulfovibrionaceae	0	
+CC20D	Treatment			Desulfovibrionaceae	5.40E-05	
+CC21A	Treatment			Desulfovibrionaceae	0.000180652	
+CC21B	Treatment			Desulfovibrionaceae	5.89E-05	
+CC21C	Treatment			Desulfovibrionaceae	0	
+CC21D	Treatment			Desulfovibrionaceae	6.86E-05	
+CC22A	Treatment			Desulfovibrionaceae	0.000143031	
+CC22B	Treatment			Desulfovibrionaceae	0.000147113	
+CC22C	Treatment			Desulfovibrionaceae	0	
+CC22D	Treatment			Desulfovibrionaceae	7.19E-05	
+CC23A	Treatment			Desulfovibrionaceae	0.000130208	
+CC23B	Treatment			Desulfovibrionaceae	0.000151584	
+CC23C	Treatment			Desulfovibrionaceae	0	
+CC23D	Treatment			Desulfovibrionaceae	0	
+CC24A	Treatment			Desulfovibrionaceae	0.000203231	
+CC24B	Treatment			Desulfovibrionaceae	6.34E-05	
+CC24D	Treatment			Desulfovibrionaceae	0	
