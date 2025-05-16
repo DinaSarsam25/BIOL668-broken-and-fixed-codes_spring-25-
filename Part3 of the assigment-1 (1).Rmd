@@ -1,0 +1,159 @@
+---
+output: 
+  html_document: 
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+Part 3: Single-Cell RNA sequence analysis using Seurat 
+You will be completing the Seurat - Guided Clustering Tutorial using the dataset of 
+Peripheral Blood Mononuclear Cells (PBMC) freely available from 10X Genomics. 
+There are 2,700 single cells that were sequenced on the Illumina NextSeq 500. 
+
+-I used R terminal to uncompress the file" pbmc3k_filtered_gene_bc_matrices.tar.gz"  
+
+```{r}
+
+library(dplyr)    #In this step i added the required library as in the tutorial 
+library(Seurat)
+library(patchwork)
+```
+```{r}
+untar("pbmc3k_filtered_gene_bc_matrices.tar.gz", exdir = "pbmc3k_data")
+
+"pbmc3k_data/filtered_gene_bc_matrices/hg19/"
+
+pbmc.data <- Read10X(data.dir = "pbmc3k_data/filtered_gene_bc_matrices/hg19/")
+
+pbmc <- CreateSeuratObject(counts = pbmc.data, project = "PBMC3K")
+
+list.files("pbmc3k_data/filtered_gene_bc_matrices", recursive = TRUE)
+pbmc <- CreateSeuratObject(counts = pbmc.data, project = "pbmc3k", min.cells = 3, min.features = 200)
+pbmc
+# the code above used for the single-cell RNA-seq analysis. It first extracts the data from a compressed file, then reads the gene expression matrix, creates a Seurat object, applies quality control filtering to remove low-quality cells and genes, and finally displays a summary of the dataset. The dataset will be used for downstream analyses such as clustering, differential expression, and visualization.
+```
+```{r}
+# The [[ operator can add columns to object metadata. This is a great place to stash QC stats
+pbmc[["percent.mt"]] <- PercentageFeatureSet(pbmc, pattern = "^MT-")
+```
+# To know about where the QC data saved in Seurat, i used the below code.
+```{r}
+
+VlnPlot(pbmc, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3)
+#Visualizes the distribution of key metrics for each cell
+
+
+plot1 <- FeatureScatter(pbmc, feature1 = "nCount_RNA", feature2 = "percent.mt")
+plot2 <- FeatureScatter(pbmc, feature1 = "nCount_RNA", feature2 = "nFeature_RNA")
+plot1 + plot2 
+
+pbmc <- subset(pbmc, subset = nFeature_RNA > 200 & nFeature_RNA < 2500 & percent.mt < 5) #Filters out cells that don't meet predefined quality control criteria
+```
+
+# Normalizing the data. In general, we need to normalize the single-cell data because some cells are sequenced deeper than others, some gened are captured more efficiently, and total RNA content varies from cell to cell.for this step we are using LogNormalize that normalizes the feature expression measurements for each cell by the total expression. 
+```{r}
+#Normalizing the data using LogNormalize method with a scale factor of 10,000
+pbmc <- NormalizeData(pbmc, normalization.method = "LogNormalize", scale.factor = 10000)
+
+# Normalizing the data again with default settings (no parameters specified)
+pbmc <- NormalizeData(pbmc)
+
+```
+#Identification of highly variable features (feature selection). This step to test and calculate a subset of features that exhibit cell to cell variation in the dataset. 
+
+```{r}
+pbmc <- FindVariableFeatures(pbmc, selection.method = "vst", nfeatures = 2000) #variance stabilizing transformation (VST) method is used for selecting variable features.
+
+top10 <- head(VariableFeatures(pbmc), 10)
+
+plot1 <- VariableFeaturePlot(pbmc) #function returns the list of variable features identified in the pbmc object.
+plot2 <- LabelPoints(plot = plot1, points = top10, repel = TRUE)
+
+png("my_plot.png", width = 1200, height = 800)
+# 
+dev.off()
+
+#plot1 + plot2
+png("my_plot.png", width = 1600, height = 1200)
+
+#DimPlot(pbmc, reduction = "pca", split.by = "groups")  # or whatever plot you're doing
+#dev.off()
+
+```
+#Scaling the data. In this step we are applying a liner transformation (scaling) this is a standard pre-processing step prior to dimensional reduction technique like PCA. Using ScalData function helps with hifts the expression of each gene, so that the mean expression across cells is 0
+#"Scales the expression of each gene, so that the variance across cells is 1 This step gives equal weight in downstream analyses, so that highly-expressed genes do not dominate The results of this are stored in pbmc[["RNA"]]$scale.data By default, only variable features are scaled. You can specify the features argument to scale additional features"
+```{r}
+all.genes <- rownames(pbmc)
+pbmc <- ScaleData(pbmc, features = all.genes) #tores the row names of the pbmc object into a variable all.genes.
+```
+#Perform linear dimensional reduction: perform PCA on the scaled data. By default, only the previously determined variable features are used as input.
+```{r}
+pbmc <- RunPCA(pbmc, features = VariableFeatures(object = pbmc))
+
+print(pbmc[["pca"]], dims = 1:5, nfeatures = 5)
+
+VizDimLoadings(pbmc, dims = 1:2, reduction = "pca")
+DimPlot(pbmc, reduction = "pca") + NoLegend()
+DimHeatmap(pbmc, dims = 1, cells = 500, balanced = TRUE)
+DimHeatmap(pbmc, dims = 1:15, cells = 500, balanced = TRUE)
+
+```
+#Determine the 'dimensionality' of the dataset To overcome the extensive technical noise in any single feature for scRNA-seq data, Seurat clusters cells based on their PCA scores, with each PC essentially representing a ‘metafeature’ that combines information across a correlated feature set.
+
+```{r}
+ElbowPlot(pbmc)
+```
+#Cluster the cells Seurat applies a graph-based clustering approach, building upon initial strategies.
+```{r}
+pbmc <- FindNeighbors(pbmc, dims = 1:10)
+pbmc <- FindClusters(pbmc, resolution = 0.5)
+head(Idents(pbmc), 5)
+```
+#Run non-linear dimensional reduction (UMAP/tSNE) Seurat offers several non-linear dimensional reduction techniques, such as tSNE and UMAP, to visualize and explore these datasets. The goal of these algorithms is to learn underlying structure in the dataset, in order to place similar cells together in low-dimensional space. 
+```{r}
+pbmc <- RunUMAP(pbmc, dims = 1:10)
+DimPlot(pbmc, reduction = "umap")
+
+```
+#Finding differentially expressed features (cluster biomarkers), Seurat can help you find markers that define clusters via differential expression (DE).
+```{r}
+cluster2.markers <- FindMarkers(pbmc, ident.1 = 2)
+head(cluster2.markers, n = 5)
+#Identifies differentially expressed genes for each cluster.
+cluster5.markers <- FindMarkers(pbmc, ident.1 = 5, ident.2 = c(0, 3))
+head(cluster5.markers, n = 5)
+
+pbmc.markers <- FindAllMarkers(pbmc, only.pos = TRUE)
+pbmc.markers %>%
+    group_by(cluster) %>%
+    dplyr::filter(avg_log2FC > 1)
+cluster0.markers <- FindMarkers(pbmc, ident.1 = 0, logfc.threshold = 0.25, test.use = "roc", only.pos = TRUE)
+
+VlnPlot(pbmc, features = c("NKG7", "PF4"), slot = "counts", log = TRUE)
+FeaturePlot(pbmc, features = c("MS4A1", "GNLY", "CD3E", "CD14", "FCER1A", "FCGR3A", "LYZ", "PPBP",
+    "CD8A")) #Visualize expression levels of genes across clusters.
+pbmc.markers %>%
+    group_by(cluster) %>%
+    dplyr::filter(avg_log2FC > 1) %>%
+    slice_head(n = 10) %>%
+    ungroup() -> top10
+DoHeatmap(pbmc, features = top10$gene) + NoLegend() #heatmaps for the top marker genes
+
+```
+#Assigning cell type identity to clusters: we can use canonical markers to easily match the unbiased clustering to known cell types.
+```{r}
+new.cluster.ids <- c("Naive CD4 T", "CD14+ Mono", "Memory CD4 T", "B", "CD8 T", "FCGR3A+ Mono",
+    "NK", "DC", "Platelet")
+names(new.cluster.ids) <- levels(pbmc)
+pbmc <- RenameIdents(pbmc, new.cluster.ids)
+DimPlot(pbmc, reduction = "umap", label = TRUE, pt.size = 0.5) + NoLegend()
+
+library(ggplot2)
+plot <- DimPlot(pbmc, reduction = "umap", label = TRUE, label.size = 4.5) + xlab("UMAP 1") + ylab("UMAP 2") +
+    theme(axis.title = element_text(size = 18), legend.text = element_text(size = 18)) + guides(colour = guide_legend(override.aes = list(size = 10)))
+ggsave(filename = "../output/images/pbmc3k_umap.jpg", height = 7, width = 12, plot = plot, quality = 50)
+
+saveRDS(pbmc, file = "../output/pbmc3k_final.rds")
+```
+
+
