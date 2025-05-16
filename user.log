@@ -1,0 +1,3 @@
+1598853502      INFO    User admin requested access for userlist
+1598863888      ERROR   User annonymous attempt to access protected resource without credentials
+1598864411      INFO    User admin logged out
