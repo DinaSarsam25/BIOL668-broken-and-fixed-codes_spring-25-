@@ -1,0 +1,61 @@
+Before starting the script, put these files on your Desktop:
+1) RTestData.txt
+2) primer.csv
+3) r_bash.sh r.py test.r
+
+#READING DATAFILES & SETTING VARIABLES
+
+First start R, then run these commands
+
+> list.files('~') #are all the files present?
+> d1=read.table('RTestData.txt', header=TRUE)
+> d1
+> fuso
+> d1$fuso
+> attach(d1)
+> fuso
+
+Plot d1$strep using the hist function
+Run qqnorm with d1$strep - is it linear?
+Do a log transform of d1$strep
+> lstrep=d1$strep
+Run qqnorm of lstrep
+Plot lstrep with the hist function
+
+Run a t.test with d$strep and d$fuso
+Run a t.test with lstrep and d$fuso
+
+(How did the test statistic and p-value change? Why did the p-value change?)
+
+
+> d2=read.csv('primer.csv')  #Put in the same directory as your R script
+> attach(d2)
+Show the data frame 
+Show the V1 variable
+
+#SORTING SUBSETTING DATA
+
+> newdata=d1[order(time),]
+
+https://www.statmethods.net/management/subset.html
+
+> time1=subset(d1, time==‘1’)
+
+#MORE COMPLEX DATA WRANGLING - Make a bookmark of this website. 
+https://r4ds.had.co.nz/transform.html
+
+
+#WRITING FILES
+> write.csv(time1,"time1.csv") #Put in the same directory as your R script
+
+#RUN ON THE COMMAND LINE
+Using the terminal, run the following scripts. The scripts may need altering or permissions changes.
+
+r_bash.sh 
+r.py
+
+
+
+
+
+

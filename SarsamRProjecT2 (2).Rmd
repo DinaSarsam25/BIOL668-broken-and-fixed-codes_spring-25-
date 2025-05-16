@@ -1,0 +1,170 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+length(metadata$rel.moisture)
+```
+I used length code to find the length of rel.moiture. I was tryong multiple methods to figure out another test instead of t.test. In Rcookbook, 
+
+```{r}
+library(vegan) #ecological package
+library(picante) #for phylogentic analysis
+library(ape) # also for Phylogentic analysis
+library(permute) #statical modling
+library(lattice) #statical modling
+library(nlme) #statical modling
+#first I started with adding the library to prepare the environment. 
+#I had an issue when I started which is finding the right path (working directory) for the assignment. As a result, I though that I need to unzip the file, so the program can find the file. 
+#Then, I finally get the data. 
+getwd()
+unzip ("C:/Users/My PC/Downloads/grassland_data.zip", exdir = "C:/Users/My PC/Downloads/grassland_data")
+#load("C:/Users/My PC/Downloads/grassland_data")
+setwd("C:/Users/My PC/Desktop/grassland_data")
+comm <- read.csv("grassland_data//grassland.community.csv", header = TRUE, row.names = 1)
+class(comm) #to check the data sets 
+
+rownames(comm)
+head(colnames(comm))
+comm[1:5, 1:5]
+apply(comm, 1, sum)
+# the above section code help with the testing the column and names in the data. this gave a summary of the data. we also can use summary tool for the same purpose. 
+
+comm <- decostand(comm, method = "total") #method used to test the data standardization.
+apply(comm, 1, sum)
+#pairs code used to see the relationship between traits. 
+comm[1:5, 1:5]
+traits <- read.csv("grassland_data/species.traits.csv", header = TRUE, row.names = 1)
+head(traits)
+pairs(traits)
+
+traits <- log10(traits)
+pairs(traits)
+#metadata is used to visualized the phylogeny tree. 
+metadata <- read.csv("grassland_data//plot.metadata.csv", header = TRUE, row.names = 1)
+head(metadata)
+#working on the phylogeny analysis and how to read the tips of the tree and how is in the tip of the tree.
+phy <- read.tree("grassland_data/grassland.phylogeny.newick")
+class(phy)
+names(phy)
+phy$tip.label[1:5] #this one is not working!
+Ntip(phy)
+print(phy)
+plot(phy, cex = 0.5)
+ls()
+#now we need to combine data sets with phylogeny. this helped with knowing the position of the species in the tree with their abundance.  
+combined <- match.phylo.comm(phy, comm)
+phy <- combined$phy
+comm <- combined$comm
+combined <- match.phylo.data(phy, traits)
+phy <- combined$phy
+traits <- combined$data
+all.equal(rownames(comm), rownames(metadata))
+metadata <- metadata[rownames(comm), ]
+#The boxplot is a helpful vitalization method to know about the richness of the species in their enviroments in different moisture level. I used t.test first to determine the the difference between species richness and moisture. but t.test did not work, i think because the differen in the data size. Therfor, I used one-way ANOVA which is the nonparametric version kruskal.test. this test foud in page 268 ch11 in Rcookbook. the reults of this test are chi-squared = 8.5251, df = 2, p-value = 0.01409. the p-value results is below 0.05, which means a significant difference in species richness.   
+boxplot(specnumber(comm) ~ metadata$rel.moisture, ylab = "# of species")
+length(metadata$rel.moisture)
+kruskal1 <- kruskal.test(specnumber(comm) ~ metadata$rel.moisture)
+kruskal1
+#t.test(specnumber(comm) ~ metadata$rel.moisture)
+#to plot the specise richness. 
+plot(specaccum(comm), xlab = "# of samples", ylab = "# of species")
+#Bray-Curtis distance matrix is used test the  dissimilarity between communities based on species composition. 
+comm.bc.dist <- vegdist(comm, method = "bray")
+comm.bc.clust <- hclust(comm.bc.dist, method = "average")
+plot(comm.bc.clust, ylab = "Bray-Curtis dissimilarity")
+#MDSto test is used to visualize community dissimilarities in a lower-dimensional space. different colors were used to help with showing each type. 
+comm.bc.mds <- metaMDS(comm, dist = "bray")
+stressplot(comm.bc.mds)
+ordiplot(comm.bc.mds, display = "sites", type = "text")
+ordipointlabel(comm.bc.mds)
+mds.fig <- ordiplot(comm.bc.mds, type = "none")
+points(mds.fig, "sites", pch = 19, col = "green", select = metadata$habitat == 
+    "Fescue")
+points(mds.fig, "sites", pch = 19, col = "blue", select = metadata$habitat == 
+    "Mixedgrass")
+ordiellipse(comm.bc.mds, metadata$habitat, conf = 0.95, label = TRUE)
+ordicluster(comm.bc.mds, comm.bc.clust, col = "gray")
+ordisurf(comm.bc.mds, comm[, "Sphaeralcea_coccinea"], bubble = TRUE, main = "Sphaeralcea coccinea abundance", 
+    cex = 3)
+ordiplot(comm.bc.mds)
+plot(envfit(comm.bc.mds, metadata[, 3:6]))
+apply(traits, 2, Kcalc, phy)
+multiPhylosignal(traits, multi2di(phy))
+plot(phy, direction = "up", show.tip.label = FALSE, show.node.label = TRUE, 
+    cex = 0.7)
+tiplabels(pch = 19, col = "black", cex = 3 * (traits[, "LeafArea"]/max(traits[, 
+    "LeafArea"])))
+root.gls <- gls(RootTissueDens ~ SRL, data = traits)
+anova(root.gls)
+root.pgls <- gls(RootTissueDens ~ SRL, correlation = corBrownian(value = 1, 
+    phy), data = traits)
+anova(root.pgls)
+plot(RootTissueDens ~ SRL, data = traits, xlab = "SRL (specific root length)", 
+    ylab = "Root tissue density")
+abline(coef(root.gls), lwd = 2, col = "black")
+abline(coef(root.pgls), lwd = 2, col = "blue")
+legend("bottomleft", legend = c("GLS fit", "Phylogenetic GLS fit"), lwd = 2, 
+    col = c("black", "blue"))
+comm.pd <- pd(comm, phy)
+head(comm.pd)
+boxplot(comm.pd$PD ~ metadata$rel.moisture, xlab = "rel.moisture", ylab = "Faith's PD")
+#kruskal2 <- kruskal.test(specnumber(comm.pd$PD) ~ metadata$rel.moisture)
+#kruskal2
+#t.test(comm.pd$PD ~ metadata$rel.moisture)
+plot(comm.pd$PD ~ comm.pd$SR, xlab = "Species richness", ylab = "Faith's PD")
+phy.dist <- cophenetic(phy)
+comm.sesmpd <- ses.mpd(comm, phy.dist, null.model = "richness", abundance.weighted = FALSE, 
+    runs = 999)
+head(comm.sesmpd)
+comm.sesmntd <- ses.mntd(comm, phy.dist, null.model = "richness", abundance.weighted = FALSE, 
+    runs = 999)
+head(comm.sesmntd)
+plot(comm.sesmpd$mpd.obs.z ~ metadata$rel.moisture, xlab = "rel.moisture", ylab = "SES(MPD)")
+abline(h = 0, col = "red")
+#kruskal3 <- kruskal.test(specnumber(comm.sesmpd.obs.z) ~ metadata$rel.moisture)
+#kruskal3
+#t.test(comm.sesmpd$mpd.obs.z ~ metadata$rel.moisture)
+plot(comm.sesmntd$mntd.obs.z ~ metadata$rel.moisture, xlab = "rel.moisture", ylab = "SES(MNTD)")
+abline(h = 0, col = "blue")
+#kruskal4 <- kruskal.test(specnumber(comm.sesmntd$mntd.obs.z) ~ metadata$rel.moisture)
+#kruskal4
+#t.test(comm.sesmntd$mntd.obs.z ~ metadata$rel.moisture)
+plot(phy, show.tip.label = FALSE, main = "Fescue community fes-K-11")
+tiplabels(tip = which(phy$tip.label %in% colnames(comm)[comm["fes-K-11", ] > 
+    0]), pch = 19)
+plot(phy, show.tip.label = FALSE, main = "Fescue community mix-H-23")
+tiplabels(tip = which(phy$tip.label %in% colnames(comm)[comm["mix-H-23", ] > 
+    0]), pch = 19)
+trait.dist <- as.matrix(dist(scale(traits), method = "euclidean"))
+comm.sesmpd.traits <- ses.mpd(comm, trait.dist, null.model = "richness", abundance.weighted = FALSE, 
+    runs = 999)
+#SES to study the effect of size on the dissimilarity. 
+plot(comm.sesmpd.traits$mpd.obs.z ~ metadata$rel.moisture, xlab = "Habitat", ylab = "Trait SES(MPD)")
+abline(h = 0, col = "gray")
+comm.mntd.dist <- comdistnt(comm, phy.dist, abundance.weighted = TRUE)
+comm.mntd.traits.dist <- comdistnt(comm, trait.dist, abundance.weighted = TRUE)
+mantel(comm.bc.dist, comm.mntd.dist)
+mantel(comm.bc.dist, comm.mntd.traits.dist)
+comm.mntd.mds <- monoMDS(comm.mntd.dist)
+mds.fig <- ordiplot(comm.mntd.mds, type = "none")
+points(mds.fig, "sites", pch = 19, col = "green", select = metadata$habitat == 
+    "Fescue")
+points(mds.fig, "sites", pch = 19, col = "blue", select = metadata$habitat == 
+    "Mixedgrass")
+ordiellipse(comm.mntd.mds, metadata$habitat, conf = 0.95, label = TRUE)
+comm.mntd.traits.mds <- monoMDS(comm.mntd.traits.dist)
+mds.fig <- ordiplot(comm.mntd.traits.mds, type = "none")
+points(mds.fig, "sites", pch = 19, col = "green", select = metadata$habitat == 
+    "Fescue")
+points(mds.fig, "sites", pch = 19, col = "blue", select = metadata$habitat == 
+    "Mixedgrass")
+ordiellipse(comm.mntd.traits.mds, metadata$rel.moisture, conf = 0.95, label = TRUE)
+#Adonis test used to test the moisture on community composition and phylogeny. 
+adonis(comm.bc.dist ~ rel.moisture, data = metadata)
+adonis(comm.mntd.traits.dist ~ rel.moisture, data = metadata)
+```
+```{r}
+getwd()
+setwd("C:/Users/My PC/Desktop/grassland_data")
+```

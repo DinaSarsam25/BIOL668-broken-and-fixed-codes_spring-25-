@@ -1,0 +1,133 @@
+---
+title: "R Notebook"
+output:
+  html_notebook: default
+  word_document: default
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+getwd()
+
+setwd ("C:/Users/My Pc/Downloads/Rproject-Dina Sarsam")
+RTestData.1=read.table('RTestData.txt', header=TRUE)
+#View(RTestData.1)
+summary(RTestData.1)
+```
+```{r Project1:part 1}
+hist(RTestData.1$strep, main = "Frequency of bacterial strep", xlab = "strep", col ="red")
+hist(RTestData.1$prev, main = "Frequency of bacterial prev", xlab = "prev", col ="yellow")
+hist(RTestData.1$lepto, main = "Frequency of bacterial lepto", xlab = "lepto", col ="blue")
+hist(RTestData.1$fuso, main = "Frequency of bacterial fuso", xlab = "fuso", col = "green")
+hist(RTestData.1$veil, main = "Frequancy of bacterial veil", xlab = "veil", col = "orange")
+hist(RTestData.1$deepest, main = "Frequency of deepest", xlab = "deepest", col = "pink")
+qqnorm(RTestData.1$strep, main = "Q-Q Plot: strep", col= "red")
+qqline(RTestData.1$strep)
+qqnorm(RTestData.1$prev, main = "Q-Q Plot: prev", col= "yellow")
+qqline(RTestData.1$prev)
+qqnorm(RTestData.1$lepto, main = "Q-Q Plot: lepto", col= "blue")
+qqline(RTestData.1$lepto)
+qqnorm(RTestData.1$fuso, main = "Q-Q Plot: fuso", col= "green")
+qqline(RTestData.1$fuso)
+qqnorm(RTestData.1$veil, main = "Q-Q Plot: veil", col= "orange")
+qqline(RTestData.1$veil)
+qqnorm(RTestData.1$deepest, main = "Q-Q Plot: deepest", col= "pink")
+qqline(RTestData.1$deepest)
+#qqnorm(log(RTestData.1$strep), main = "Q-Q Plot: log(strep)", col= "red")
+#qqline(log(RTestData.1$strep))
+#qqnorm(log(RTestData.1$prev), main = "Q-Q Plot: log(prev)", col= "yellow") #I do not know my the log is not working!
+#qqline(log(RTestData.1$prev))
+#qqnorm(log(RTestData.1$lepto), main = "Q-Q Plot: log(lepto)", col= "green")
+#qqline(log(RTestData.1$lepto))
+#qqnorm(log(RTestData.1$fuso), main = "Q-Q Plot: log(fuso)", col= "orange")
+#qqline(log(RTestData.1$fuso))
+#qqnorm(log(RTestData.1$veil), main = "Q-Q Plot: log(veil)", col= "pink")
+#qqline(log(RTestData.1$veil))
+
+qqnorm(sqrt(RTestData.1$strep), main = "Q-Q Plot:sqrt (strep) ", col= "red")
+qqline(sqrt(RTestData.1$strep))
+qqnorm(sqrt(RTestData.1$prev), main = "Q-Q Plot: sqrt (prev)", col= "yellow")
+qqline(sqrt(RTestData.1$prev))
+qqnorm(sqrt(RTestData.1$lepto), main = "Q-Q Plot: sqrt (lepto)", col= "blue")
+qqline(sqrt(RTestData.1$lepto))
+qqnorm(sqrt(RTestData.1$fuso), main = "Q-Q Plot: sqrt (fuso)", col= "green") #I think I do not need the sqrt!
+qqline(sqrt(RTestData.1$fuso))
+qqnorm(sqrt(RTestData.1$veil), main = "Q-Q Plot: sqrt (veil)", col= "orange")
+qqline(sqrt(RTestData.1$veil))
+qqnorm(sqrt(RTestData.1$lepto), main = "Q-Q Plot: sqrt(lepto)", col= "blue")
+qqline(sqrt(RTestData.1$lepto))
+ano_lepto <- aov(lepto ~ time, RTestData.1)
+summary(ano_lepto)
+ano_strep <- aov(strep ~ time, RTestData.1)
+summary(ano_strep)
+boxplot(lepto ~ time, RTestData.1, main = "Lepto by Time", col = "blue")
+boxplot(strep ~ time, RTestData.1, main = "Strep by Time", col= "red")
+cor.test(RTestData.1$strep, RTestData.1$prev)
+cor.test(RTestData.1$strep, RTestData.1$fuso)
+cor.test(RTestData.1$strep, RTestData.1$lepto)
+lin_reg1 <- lm(strep ~ deepest, RTestData.1)
+summary(lin_reg1)
+abline(lin_reg1)
+lin_reg2 <- lm(fuso ~ deepest, RTestData.1)
+summary(lin_reg2)
+abline(lin_reg2)
+plot(RTestData.1$strep, RTestData.1$deepest, main = "Strep and Deepest Liner Regressions Plot", col = "purple")
+plot(RTestData.1$fuso, RTestData.1$deepest, main = "Fuso and Deepest liner Regressions Plot" , col = "brown")
+```
+
+
+```{r Project1: PartB}
+library(ggplot2)
+ggplot(RTestData.1, aes(x = prev)) + geom_histogram(binwidth = 3, fill = "pink", col="black")
+
+ggplot(RTestData.1, aes(x= deepest, y = strep, color = time)) + geom_point()+labs (title = "Strep by Deepest", x = "Deepest", y="strep")
+
+ggplot(RTestData.1, aes(x= deepest, y = fuso, color = time)) + geom_point(size = 5)+labs (title = "Fuso by Deepest", x = "Deepest", y="Fuso")
+
+ggplot(RTestData.1, aes(x= deepest, y = fuso, color = time)) + geom_point( size = 3 )+labs (title = "Fuso by Deepest", x = "Deepest", y="Fuso")
+
+ggplot(RTestData.1, aes(x= deepest, y = fuso, color = time)) + geom_point( size = 3 )+ geom_smooth(method = "lm", se = FALSE) +
+  labs (title = "Fuso by Deepest", x = "Deepest", y="Fuso")
+```
+```{r}
+summary(RTestData.1)
+summary(RTestData)
+getwd
+setwd("c:/Users/My PC/Downloads")
+```
+
+```{r Project1: partC}
+library(vegan)
+data(package = "vegan")
+setwd("c:/Users/My PC/Downloads")
+olddata <- RTestData.1
+newdata <- olddata[2:6]
+head(newdata)
+shannon_1 <- diversity(newdata, index = "shannon")
+#rarecurve(newdata, col = "pink") #I don't know why it's not working. It is same as the tutorial in VEGAN.
+par(mfrow = c(1, 2))
+bray= vegdist(newdata, "bray")
+gower = vegdist(newdata, "gower")
+hist(bray, xlim = range(0.0,1.0))
+hist(gower, xlim = range(0.0,1.0))
+bray_curtis_matrix <- vegdist(newdata, method ="bray")
+hist(bray_curtis_matrix, main = "Bray-Curtis Dissimilarities", xlab = "Dissimilarities", col = "blue")
+mds1 <- metaMDS(bray_curtis_matrix)
+plot(mds1$points, col= "pink")
+#plot(mds1, main = "MDS", col = "orange") not working
+library(ggplot2)
+status <- olddata$status
+time <- olddata$time
+MDS_xy <- data.frame(bray_curtis_matrix.mds$points)
+MDS_xy$status <- bray_curtis_matrix$status
+MDS_xy$time <- bray_curtis_matrix$time
+library(ggplot2)
+ggplot(MDS_xy, aes(MDS1, color= status)) + geom_point() + 
+  theme_bw()
+ggplot(MDS_xy, aes(MDS1, color= time)) + geom_point() + 
+  theme_bw()
+
+ 
+```
+

@@ -1,0 +1,50 @@
+---
+title: "R Notebook"
+output:
+  word_document: default
+  html_notebook: default
+  pdf_document: default
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+```{r}
+list.files('~')
+setwd("C:/Users/MY PC/Desktop/R lab1")
+d1 = read.table('RTestData.txt', header = TRUE)
+d1
+#fuso
+d1$fuso
+#attached(d1)
+#fuso
+d1$strep = as.numeric(as.character(d1$strep))
+#hist(d1$srep)
+#hist(1strep)
+t.test(d1$strep, d1$fuso)
+#t.test(1strep, d1$fuso)
+#d2 = read.csv('primer.csv')
+qqnorm(d1$strep)
+qqline(d1$strep)
+lstrep = log(d1$strep)
+d1 = d1[!is.na(d1$strep), ]
+
+```
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+```{r}
+head(airquality)
+attach(airquality)
+qqnorm(Ozone)
+qqline(Ozone)
+hist(Ozone, main = "Histogram of Ozone", xlab = "Ozone")
+shapiro.test(Ozone)
+Ozone_log <- log(Ozone +1)  
+```
